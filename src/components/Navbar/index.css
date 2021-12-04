@@ -1,0 +1,20 @@
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+
+.form-inline li {
+    list-style: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+        position: relative;
+        left: 3%;
+    }
+}
+

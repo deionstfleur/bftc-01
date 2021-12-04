@@ -1,0 +1,39 @@
+.bg-dark {
+  background-color: #000 !important;
+  font-size: 20px;
+}
+
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-button {
+ border-radius: 15px;
+  /* background-color: #fff; */
+  color: #000 !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  position: relative;
+  left: 8%;
+}
+
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  right: 3%;
+}

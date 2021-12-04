@@ -1,0 +1,84 @@
+.pod-squad {
+    font-size: 100px;
+}
+
+.subtitle {
+    font-size: 18px;
+    width: 96%;
+    line-height: 32px;
+}
+
+
+
+.icon {
+    /* border-radius: 300px; */
+    display: grid;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.section-2 {
+    max-width: 100%;
+    background-color: black;
+    color: #fff;
+    height: 450px;
+}
+
+.episode-btn-3 span {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.social-right {
+    text-align: right;
+    padding-top: 30px;
+}
+
+.social-right p {
+    font-size: 24px;
+}
+
+.podder {
+    font-size: 70px;
+}
+
+.podder-desc {
+    line-height: 38px;
+    font-size: 22px;
+}
+
+#podder-container {
+    padding-top: 100px;
+}
+
+#spacing {
+    padding-top: 180px;
+}
+
+#mb {
+    margin-bottom: 200px;
+}
+
+#dt-only {
+    display: block;
+}
+
+
+
+
+@media screen and (max-wdith: 767px) {
+    #mb {
+        margin-bottom: 100px;
+    }
+
+ 
+
+  
+  
+}
