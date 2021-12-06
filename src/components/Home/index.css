@@ -52,12 +52,12 @@
 }
 
 #last-level {
-    padding-top: 20px;
+    padding-top: 34px;
     /* margin-bottom: 200px; */
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, rgb(226, 67, 67) , white);
     max-width: 100%;
-    height: 450px;
+    height: 500px;
     margin-top: 76px;
 }
 
@@ -433,6 +433,7 @@ line-height: 16px;
   #last-level {
       height: 789px;
       margin-bottom: unset;
+      padding-top: unset;
   }
     .mob-section {
         display: block;

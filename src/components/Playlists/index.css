@@ -3,6 +3,7 @@
     line-height: 75px;
     text-align: center;
     padding-top: 20px;
+    color: #fff;
 }
 
 .p-sub {
@@ -11,4 +12,23 @@
     text-align: center;
     width: 80%;
     margin: auto;
+    color: #fff;
+}
+
+#play-section {
+    max-width: 100%;
+    background-color: black;
+    height: 1000px;
+}
+
+.company-thumb {
+    padding-top: 62px;
+}
+
+.moments-title {
+    padding-top: 200px;
+    color: #fff;
+    font-size: 52px;
+    line-height: 52px;
+    
 }

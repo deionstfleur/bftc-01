@@ -27,7 +27,7 @@ const About = () => {
                     <div class="col-6">
 
                         <div class="text-left">
-                            <h2 className="pod-squad">Meet the <p style={{color: 'red'}}>Team</p></h2>
+                            <h2 className="pod-squad">Meet the <p style={{color: 'red'}}>Hosts</p></h2>
                             <p className="about-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
                         </div>
 
@@ -84,7 +84,10 @@ const About = () => {
 
                     <p className="podder-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
 
+                    <div>
+
                     <h3>Follow Me</h3>
+                    </div>
 
                     <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
                             <p>Instagram</p>

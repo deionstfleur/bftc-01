@@ -9,6 +9,7 @@ import Clark from '../../assets/Clark-D.jpeg'
 import Bori from '../../assets/Borirock.jpeg'
 import Kei from '../../assets/Kei.jpeg'
 import Group from '../../assets/group.jpeg'
+import Trio from '../../assets/trio.jpeg'
 import Logo from '../../assets/logo-1.jpeg'
 import {Link} from 'react-router-dom'
 import Footer from '../Footer'
@@ -123,7 +124,7 @@ const Home = () => {
 				</div>
 			</div>
 			<div class="col-md-6 col-xs-12"> 
-                 <img  src="https://via.placeholder.com/600x400" class="img-fluid" /> 
+                 <img  src={Trio} class="img-fluid" /> 
             </div>
 		</div>
 	</div>
