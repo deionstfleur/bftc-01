@@ -17,7 +17,7 @@
     padding-top: 35px;
 }
 
-.section-2 {
+.section-2-about {
     max-width: 100%;
     background-color: black;
     color: #fff;
@@ -44,6 +44,15 @@
     font-size: 24px;
 }
 
+.social-right a {
+    color: red;
+}
+
+.about-sub {
+    display: block;
+}
+
+
 .podder {
     font-size: 70px;
 }
@@ -69,16 +78,45 @@
     display: block;
 }
 
+.youtube-btn span {
+    border: 1px solid red;
+    border-radius: 100px;
+    padding: 7px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.youtube-btn span:hover {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
 
 
 
-@media screen and (max-wdith: 767px) {
+
+@media screen and (max-width: 767px) {
     #mb {
         margin-bottom: 100px;
     }
 
  
-
-  
+    .about-sub {
+        display: none;
+    }
+    
+    .social-right {
+        display: none;
+    }
   
 }

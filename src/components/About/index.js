@@ -2,9 +2,15 @@ import React from 'react'
 import Navbar from '../Navbar'
 import '../About/index.css'
 import Tomo from '../../assets/Tomo.jpeg'
+import Tomo2 from '../../assets/Tomo-2.jpeg'
 import Nate from '../../assets/Nate.jpeg'
+import Nate2 from '../../assets/Nate-2.jpeg';
 import Rob from '../../assets/Rob.jpeg'
+import Rob2 from '../../assets/Rob-2.jpeg'
+import {Link} from 'react-router-dom'
 import Yves from '../../assets/Yves.jpeg'
+import Yves2 from '../../assets/Yves-2.jpeg'
+import Footer from '../Footer'
 import { Container, Row, Col } from 'bootstrap-4-react';
 
 
@@ -12,7 +18,7 @@ const About = () => {
     return (
         <div>
             <Navbar />
-        <div className="section-2">
+        <div className="section-2-about">
 
             <div class="container">
 
@@ -22,14 +28,12 @@ const About = () => {
 
                         <div class="text-left">
                             <h2 className="pod-squad">Meet the <p style={{color: 'red'}}>Team</p></h2>
-
-                        <div id="dt-only">
-
-                            <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
+                            <p className="about-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
                         </div>
-                        
 
-                        </div>
+                        <div className="youtube-btn">
+							<a style={{textDecoration: 'none'}} target="_blank" href="https://www.youtube.com/c/BadForTheCommunity"> <span> Watch on Youtube </span> </a>
+						</div>
                     </div>
 
                     <div class="col-6">
@@ -38,10 +42,18 @@ const About = () => {
                              <p>Listen on - </p>
 
                              <ul style={{listStyle: 'none', textDecoration: 'underline', cursor: 'pointer', color: 'red'}}>
-                                 <li>Tidal</li>
-                                 <li>Spotify</li>
-                                 <li>Apple Podcasts </li>
-                                 <li>Google Podcasts </li>
+                                 <a href="https://open.spotify.com/show/1evrNWwBQsLVUZX0MiHZjZ" target="_blank">
+                                      <li>Spotify</li>
+                                 </a>  
+                                 <a href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413" target="_blank">
+                                    <li>Apple Podcasts </li>
+                                 </a>
+                                 <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xNzc4MjgwLnJzcw==" target="_blank">
+                                      <li>Google Podcasts </li>
+                                 </a>
+                                 <a href="https://music.amazon.com/podcasts/1e73552a-0a77-4a01-9dce-83ae5f179b60" target="_blank"> 
+                                     <li>Amazon Podcasts</li>
+                                 </a>
                              </ul>
                         </div>
 
@@ -62,7 +74,7 @@ const About = () => {
 
                 <div class="col-md-6 col-xs-12">
 
-                    <img src={Rob} height="500" width="500" />
+                    <img src={Rob2} class="img-fluid"  />
 
                 </div>
 
@@ -74,12 +86,9 @@ const About = () => {
 
                     <h3>Follow Me</h3>
 
-                    <div style={{display: 'flex', justifyContent: 'space-between', width: '60%', textDecoration: 'underline', cursor: 'pointer'}}>
-
-                        <p>Instagram</p>
-                        <p>Facebook</p>
-                        <p>Instagram</p>
-
+                    <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
+                            <p>Instagram</p>
+                            <p>Twitter</p>
                     </div>
 
                 </div>
@@ -91,7 +100,7 @@ const About = () => {
 
             <div class="col-md-6 col-xs-12">
 
-                <img src={Yves} height="500" width="500" />
+                <img src={Yves2} class="img-fluid" />
 
             </div>
 
@@ -103,11 +112,10 @@ const About = () => {
 
                 <h3>Follow Me</h3>
 
-                <div style={{display: 'flex', justifyContent: 'space-between', width: '60%', textDecoration: 'underline', cursor: 'pointer'}}>
+                <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
 
                     <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Instagram</p>
+                    <p>Twitter</p>
 
                 </div>
 
@@ -119,8 +127,9 @@ const About = () => {
         <div id="spacing" class="row">
 
             <div class="col-md-6 col-xs-12">
-
-                <img src={Tomo} height="500" width="500" />
+                <div>
+                <img src={Tomo2} class="img-fluid" />
+                </div>
 
             </div>
 
@@ -132,11 +141,10 @@ const About = () => {
 
                 <h3>Follow Me</h3>
 
-                <div style={{display: 'flex', justifyContent: 'space-between', width: '60%', textDecoration: 'underline', cursor: 'pointer'}}>
+                <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
 
                     <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Instagram</p>
+                    <p>Twitter</p>
 
                 </div>
 
@@ -151,7 +159,7 @@ const About = () => {
 
             <div class="col-md-6 col-xs-12">
 
-                <img src={Nate} height="500" width="500" />
+                <img src={Nate2} class="img-fluid" />
 
             </div>
 
@@ -163,11 +171,10 @@ const About = () => {
 
                 <h3>Follow Me</h3>
 
-                <div style={{display: 'flex', justifyContent: 'space-between', width: '60%', textDecoration: 'underline', cursor: 'pointer'}}>
+                <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
 
                     <p>Instagram</p>
-                    <p>Facebook</p>
-                    <p>Instagram</p>
+                    <p>Twitter</p>
 
                 </div>
 
@@ -180,7 +187,8 @@ const About = () => {
         </div>
 
 
-            <footer>
+<Footer />
+            {/* <footer>
                 <div id="footer-container" class="container">
 
                     <div class="row">
@@ -213,7 +221,7 @@ const About = () => {
                     </div>
 
                 </div>
-            </footer>
+            </footer> */}
 
 
         </div>

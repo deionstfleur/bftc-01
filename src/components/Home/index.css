@@ -12,7 +12,7 @@
 }
 
 #lower-section {
-    background-color: rgb(187, 187, 187);
+    background-color: #708090;
     padding: 10px;
 }
 
@@ -23,10 +23,13 @@
 .mt-hosts h1 {
     font-size: 80px;
     width: 90%;
+    color: #000;
 }
 
 .mt-hosts p {
     line-height: 28px;
+    color: #000;
+    font-size: 22px;
 }
 
 .card {
@@ -45,11 +48,17 @@
     padding-top: 40px;
     padding-left: 10px;
     margin-bottom: 30px;
+    
 }
 
 #last-level {
     padding-top: 20px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(226, 67, 67) , white);
+    max-width: 100%;
+    height: 450px;
+    margin-top: 76px;
 }
 
 .episode-btn span {
@@ -80,6 +89,7 @@
     color: rgb(0, 0, 0);
     font-weight: bold;
     cursor: pointer;
+    padding-top: 12px;
 }
 
 .guest-btn span {
@@ -125,7 +135,7 @@
 }
 
 .artist-title {
-    font-size: 22px;
+    font-size: 17px;
     line-height: 35px;
     margin-top: 10px;
 }
@@ -245,7 +255,6 @@ line-height: 16px;
     left: 0;
     display: flex;
     overflow-x: scroll;
-    counter-reset: item;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
   }
@@ -254,16 +263,25 @@ line-height: 16px;
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    background-color: #f99;
-    counter-increment: item;
+    background-image: url('../../assets/Clark-D.jpeg');
+    background-size: contain;
   }
   
-  .carousel__slide:nth-child(even) {
-    background-color: #99f;
+  .carousel__slide:nth-child(2) {
+    background-image: url('../../assets/Kei.jpeg');
+    background-size: contain;
+  }
+
+  .carousel__slide:nth-child(3) {
+    background-image: url('../../assets/Borirock.jpeg');
+    background-size: contain;
+  }
+
+  .carousel__slide:nth-child(4) {
+    background-color: yellow;
   }
   
   .carousel__slide:before {
-    content: counter(item);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -387,6 +405,17 @@ line-height: 16px;
       display: block;
   }
 
+  .artist-hover {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    cursor: pointer;
+  }
+
+  .artist-hover:hover {
+    -webkit-filter: unset; /* Safari 6.0 - 9.0 */
+    filter: unset;
+  }
+
 
 
 
@@ -401,9 +430,10 @@ line-height: 16px;
     #top-section {
         height: 399px;
     }
-    #last-level {
-        margin-bottom: 100px;
-    }
+  #last-level {
+      height: 789px;
+      margin-bottom: unset;
+  }
     .mob-section {
         display: block;
         padding-top: 34px;
@@ -411,6 +441,10 @@ line-height: 16px;
 
     #dt-none {
         display: none;
+    }
+
+    .terms {
+        font-size: 22px;
     }
  
 }

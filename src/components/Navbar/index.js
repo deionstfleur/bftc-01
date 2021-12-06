@@ -8,7 +8,7 @@ const Header = () => {
     return (
       <Navbar expand="lg" light bg="light">
       <Navbar.Brand class="hack" href="#">
-        
+        <p class="mob-log">BFTC</p>
       </Navbar.Brand>
       <Navbar.Toggler target="#navbarSupportedContent" />
       <Collapse navbar id="navbarSupportedContent">
@@ -40,10 +40,14 @@ const Header = () => {
               <Dropdown.Item>Something else</Dropdown.Item>
             </Dropdown.Menu> */}
           </Nav.Item>
-          {/* <Nav.Item>
-            <Nav.Link>Disabled</Nav.Link>
-          </Nav.Item> */}
-          <Button outline success my="2 sm-0">Subscribe</Button>
+          <Nav.Item>
+              <Link style={{color: 'black', textDecoration: 'none'}} to="/Playlists">
+                  <Nav.Link>Playlists</Nav.Link>
+              </Link>
+          </Nav.Item>
+          <Link to="/Contact" style={{textDecoration: 'none'}}>
+              <Button outline success my="2 sm-0">Subscribe</Button>
+          </Link>
         </Form>
       </Collapse>
     </Navbar>

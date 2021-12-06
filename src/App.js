@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import Home from '../src/components/Home/index';
 import About from '../src/components/About/index';
 import Social from '../src/components/Social/index';
+import Playlists from '../src/components/Playlists/index';
+import Contact from '../src/components/Contact/index';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -13,6 +15,8 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/About" element={<About />}/>
         <Route path="/page-3" element={<Social />}/>
+        <Route path="/Playlists" element={<Playlists />}/>
+        <Route path="/Contact" element={<Contact />}/>
       </Routes>
     </Router>
   );

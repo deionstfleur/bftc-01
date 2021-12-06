@@ -9,12 +9,36 @@
     list-style: none;
 }
 
-@media (min-width: 992px) {
+.btn-outline-success {
+    color: red !important;
+    background-color: transparent;
+    background-image: none;
+    border-color: red !important;
+}
+
+.btn-outline-success:hover {
+    background-color: red !important;
+    color: white !important;
+}
+
+.mob-log {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .mob-logo {
+        display: block;
+    }
+}
+
+
+@media  (min-width: 992px) {
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
         flex-direction: row;
         position: relative;
         left: 3%;
     }
+
 }
 

@@ -1,0 +1,27 @@
+footer {
+    max-width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#footer-container {
+    padding-top: 25px;
+}
+
+.left-footer {
+    line-height: 16px;
+
+}
+
+.middle-footer {
+line-height: 16px;
+}
+
+.right-footer {
+line-height: 16px;
+}
+
+.footer-links {
+    color: red;
+    text-decoration: underline;
+}
