@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../Navbar'
 import '../Home/index.css'
 import Tomo from '../../assets/Tomo.jpeg'
@@ -16,10 +16,12 @@ import Footer from '../Footer'
 
 
 
+
+
 const Home = () => {
     return (
         <div>
-	<Navbar />
+	<Navbar id="nav" />
 	<div id="top-section">
 		<div id="main" class="container">
             <div class="row">
@@ -108,6 +110,7 @@ const Home = () => {
 			</div>
 		</div>
 	</div>
+
 	<div id="last-level" class="container">
 		<div class="row">
 			<div class="col-md-6 col-xs-12">
@@ -128,6 +131,43 @@ const Home = () => {
             </div>
 		</div>
 	</div>
+
+
+
+	{/* <div class="container">
+
+	</div>
+		<div class="row">
+
+			<div class="col-xs-12 col-md-6">
+
+				<div style={{backgroundColor:'white', maxWidth: '100%'}}>
+
+					<div class="container">
+
+						<p>GFTC</p>
+					</div>
+
+
+				</div>
+
+			</div>
+
+			<div class="col-xs-12 col-md-6">
+
+				<div style={{backgroundColor:'#ececec',  maxWidth: '100%'}}>
+
+					<div class="container">
+						<p>BFTC</p>
+					</div>
+				</div>
+
+			</div>
+
+		</div> */}
+	
+
+
 
     <Footer />
 	

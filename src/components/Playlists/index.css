@@ -2,14 +2,22 @@
     font-size: 72px;
     line-height: 75px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 92px;
+    font-weight: bold;
     color: #fff;
+    width: 60%;
+    cursor: pointer;
+}
+
+.playlist-header:hover {
+    color: rgb(231, 216, 231);
+    cursor: pointer;
 }
 
 .p-sub {
     font-size: 24px;
     line-height: 34px;
-    text-align: center;
+    text-align: left;
     width: 80%;
     margin: auto;
     color: #fff;
@@ -17,8 +25,13 @@
 
 #play-section {
     max-width: 100%;
-    background-color: black;
-    height: 1000px;
+    background-color: rgb(235, 30, 50);
+    height: 600px;
+}
+
+.thumb-card {
+    background-color: white;
+    height: 700px;
 }
 
 .company-thumb {
@@ -31,4 +44,95 @@
     font-size: 52px;
     line-height: 52px;
     
+}
+
+#different-section {
+    max-width: 100%;
+    background-color: #000;
+    height: 500px;
+}
+
+.ds-inner {
+    color: white;
+    padding-top: 35px;
+}
+
+.ds-inner h1 {
+    width: 82%;
+    font-size: 52px;
+}
+
+.ds-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(27, 40, 223);
+
+}
+
+.ds-sub {
+    width: 82%;
+    font-size: 22px;
+}
+
+#vid {
+    padding-top: 54px;
+}
+
+.big-biz {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+}
+
+#play-hack {
+    width: 80%;
+}
+
+@media screen and (max-width: 767px) {
+    #play-section {
+        height: 794px;
+    }
+
+    .playlist-header {
+        padding-top: 29px;
+        width: unset;
+        
+    }
+
+    .p-sub {
+        margin: auto;
+    }
+
+    .ds-inner h1 {
+        font-size: 42px;
+        width: unset;
+    }
+
+    .ds-sub {
+        width: unset;
+    }
+
+    #different-section {
+        height: 586px;
+    }
+
+    #play-hack {
+        width: unset;
+    }
+
+    .p-sub {
+        font-size: 24px;
+        line-height: 34px;
+        text-align: center;
+        width: unset;
+        margin: auto;
+        color: #fff;
+    }
+
+    .big-biz {
+        left: 40%;
+    }
 }

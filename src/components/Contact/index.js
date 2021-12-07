@@ -3,6 +3,18 @@ import '../../components/Contact/index.css'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import {Link} from 'react-router-dom'
+import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps'
+
+
+function Map() {
+    return (
+        <GoogleMap defaultZoom={10} 
+        defaultCenter={{ lat: 42.3601, lng: 71.0589}} 
+        />
+    )
+}
+
+const WrappedMap = withScriptjs(withGoogleMap(Map));
 
 
 const Contact = () => {
@@ -31,7 +43,7 @@ const Contact = () => {
                 <div class="col-xl-6 col-sm-12">
 
                     <img src="https://via.placeholder.com/600x400" class="img-fluid" />
-
+                    
                 </div>
 
             </div>
