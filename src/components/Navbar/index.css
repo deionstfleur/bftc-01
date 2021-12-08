@@ -25,9 +25,18 @@
     display: none;
 }
 
+.logo {
+    position: relative;
+    left: 39%;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 767px) {
     .mob-logo {
         display: block;
+    }
+    .logo {
+        left: 10%;
     }
 }
 

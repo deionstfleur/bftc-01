@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import '../Navbar/index.css'
+import Logo from '../../assets/logo.png'
 import { Navbar, Nav, Button, Dropdown, Form, Collapse } from 'bootstrap-4-react';
 import {Link} from 'react-router-dom'
 
@@ -7,15 +8,17 @@ import {Link} from 'react-router-dom'
 const Header = () => {
     return (
       <Navbar expand="lg" light bg="light">
-      <Navbar.Brand class="hack" href="#">
-        <p class="mob-log">BFTC</p>
+      <Navbar.Brand class="hack" to="/">
+        <Link to="/" style={{cursor: 'pointer'}} className="logo">
+          <img src={Logo} height="50" />
+        </Link>
       </Navbar.Brand>
       <Navbar.Toggler target="#navbarSupportedContent" />
       <Collapse navbar id="navbarSupportedContent">
         <Navbar.Nav mr="auto">
           <Nav.Item active>
             <Link style={{color: 'black', textDecoration: 'none'}}  to="/">
-               <Nav.Link>BFTC</Nav.Link>
+               {/* <Nav.Link>BFTC</Nav.Link> */}
             </Link>
           </Nav.Item>
        

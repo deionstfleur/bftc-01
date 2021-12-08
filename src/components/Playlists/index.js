@@ -33,7 +33,9 @@ const Playlists = () => {
                              {/* <p style={{paddingTop: 12, fontSize: 14}} className="p-sub">Learn More </p> */}
 
                              <div className="big-biz">
+                                 
                                     <img src={AppleMusic} class="img-fluid" />
+                                
                                     <img src={Spotify} class="img-fluid" />
                              </div>
                         </div>
@@ -56,6 +58,9 @@ const Playlists = () => {
 
                                 <h1>Come see our Favorite Moments</h1> 
                                 <p className="ds-sub" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. </p>
+                               <a href="https://www.youtube.com/playlist?list=PLqpjW58LUV3wH4I2w6itZgtunKm_i7Zfy" target="_blank">
+                                <p>Learn More</p>
+                                </a>
                             </div>
                         </div>
 

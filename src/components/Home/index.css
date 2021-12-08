@@ -45,7 +45,14 @@ html {
     padding-top: 40px;
     width: 80%;
 }
+#scroll img {
+  cursor: pointer;
+}
 
+.scroll-container {
+  padding-top: 50px;
+  display: flex;
+}
 
 .rg-title {
     font-size: 24px;
@@ -159,6 +166,7 @@ html {
 .box {
   border: 1px solid black;
 }
+
 
 
 footer {
@@ -447,8 +455,18 @@ line-height: 16px;
     #dt-fix {
         top: unset;
     }
+
+
     .hp-title {
         font-size: 50px;
+    }
+    .mt-hosts h1 {
+      font-size: 50px;
+    }
+
+    .scroll-container {
+      display: flex !important;
+      overflow-x: auto !important;
     }
 
     #top-section {
