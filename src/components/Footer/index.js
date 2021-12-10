@@ -4,6 +4,9 @@ const Footer = () => {
     return (
         <footer>
 		<div id="footer-container" class="container">
+
+		<div data-aos="fade-up">
+
 			<div class="row">
 				<div class="col-md-4 col-xs-12 left-footer">
 					<p>Follow Us</p>
@@ -35,6 +38,8 @@ const Footer = () => {
 					<p style={{color: 'red'}}>2021</p>
 				</div>
 			</div>
+
+		</div>
 		</div>
 	</footer>
     )
