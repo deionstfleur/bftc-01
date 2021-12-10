@@ -21,7 +21,7 @@
     max-width: 100%;
     background-color: black;
     color: #fff;
-    height: 450px;
+    height: 486px;
 }
 
 .episode-btn-3 span {
@@ -67,7 +67,7 @@
 }
 
 #spacing {
-    padding-top: 180px;
+    padding-top: 234px;
 }
 
 #mb {
@@ -113,6 +113,10 @@
  
     .about-sub {
         display: none;
+    }
+
+    #spacing {
+        padding-top: 80px;
     }
     
     

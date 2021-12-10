@@ -3,6 +3,9 @@
     padding: 0.5rem 1rem;
     color: black;
 }
+.bg {
+    background-color: black!important;
+}
 
 
 .form-inline li {

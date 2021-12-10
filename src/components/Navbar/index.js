@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
-      <Navbar expand="lg" light bg="light">
+      <Navbar expand="lg" light bg="dark">
       <Navbar.Brand class="hack" to="/">
         <Link to="/" style={{cursor: 'pointer'}} className="logo">
           <img src={Logo} height="50" />
@@ -29,12 +29,12 @@ const Header = () => {
        
           <Nav.Item>
             <Link style={{color: 'black', textDecoration: 'none'}} to="/About">
-              <Nav.Link>About</Nav.Link>
+              <Nav.Link style={{color: 'white'}}>About</Nav.Link>
             </Link>
           </Nav.Item>
           <Nav.Item dropdown>
             <Link style={{color: 'black', textDecoration: 'none'}}  to="/page-3">
-               <Nav.Link>Merch</Nav.Link>
+               <Nav.Link style={{color: 'white'}}>Merch</Nav.Link>
             </Link>
             {/* <Dropdown.Menu>
               <Dropdown.Item>Action</Dropdown.Item>
@@ -45,7 +45,7 @@ const Header = () => {
           </Nav.Item>
           <Nav.Item>
               <Link style={{color: 'black', textDecoration: 'none'}} to="/Playlists">
-                  <Nav.Link>Playlists</Nav.Link>
+                  <Nav.Link style={{color: 'white'}}>Playlists</Nav.Link>
               </Link>
           </Nav.Item>
           <Link to="/Contact" style={{textDecoration: 'none'}}>

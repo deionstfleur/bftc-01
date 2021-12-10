@@ -49,12 +49,14 @@
 #different-section {
     max-width: 100%;
     background-color: #000;
-    height: 500px;
+    margin-bottom: -1px;
+    height: 564px;
 }
 
 .ds-inner {
     color: white;
-    padding-top: 35px;
+    padding-top: 49px;
+
 }
 
 .ds-inner h1 {
@@ -91,9 +93,30 @@
     width: 80%;
 }
 
+.mob-learn {
+    position: relative;
+  /* left: 29%; */
+  text-align: center;
+  color: white;
+  font-size: 21px;
+  border: 1px solid #fff;
+  width: 40%;
+  padding: 6px;
+  border-radius: 30px;
+  }
+
+  .mob-learn:hover {
+   background-color: white;
+   color: black;
+  }
+
 @media screen and (max-width: 767px) {
     #play-section {
-        height: 794px;
+        height: 683px;
+    }
+
+    #vid {
+        padding-top: 32px;
     }
 
     .playlist-header {
@@ -116,7 +139,7 @@
     }
 
     #different-section {
-        height: 586px;
+        height: 685px;
     }
 
     #play-hack {
@@ -135,4 +158,5 @@
     .big-biz {
         left: 40%;
     }
+
 }

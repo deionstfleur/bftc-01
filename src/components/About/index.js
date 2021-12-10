@@ -28,7 +28,7 @@ const About = () => {
 
                         <div class="text-left">
                             <h2 className="pod-squad">Meet the <p style={{color: 'red'}}>Hosts</p></h2>
-                            <p className="about-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
+                            <p className="about-sub">Follow along with our hosts, Young Rob and Saint Yves, Tomo and Nate Nics as they discuss a broad range of topics and interview the top leaders in their respective industries.</p>
                         </div>
 
                         <div className="youtube-btn">

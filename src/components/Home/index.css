@@ -45,8 +45,9 @@ html {
     padding-top: 40px;
     width: 80%;
 }
-#scroll img {
+#scroll  {
   cursor: pointer;
+  display: block;
 }
 
 .scroll-container {
@@ -55,7 +56,7 @@ html {
 }
 
 .rg-title {
-    font-size: 24px;
+    font-size: 28px;
     padding-top: 40px;
     padding-left: 10px;
     margin-bottom: 30px;
@@ -63,13 +64,12 @@ html {
 }
 
 #last-level {
-    padding-top: 34px;
-    /* margin-bottom: 200px; */
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, rgb(226, 67, 67) , white);
-    max-width: 100%;
-    height: 500px;
-    margin-top: 76px;
+  padding-top: 75px;
+  background-color: red;
+  background-image: linear-gradient(to right, rgb(226, 67, 67) , white);
+  max-width: 100%;
+  height: 564px;
+  margin-top: 101px;
 }
 
 .episode-btn span {
@@ -166,6 +166,8 @@ html {
 .box {
   border: 1px solid black;
 }
+
+
 
 
 
@@ -305,12 +307,14 @@ line-height: 16px;
   }
 
   .carousel__slide:nth-child(3) {
-    background-image: url('../../assets/Borirock.jpeg');
+    background-image: url('../../assets/kieh.jpeg');
     background-size: contain;
   }
 
   .carousel__slide:nth-child(4) {
     background-color: yellow;
+    /* background-image: url('../../assets/Borirock.jpeg'); */
+
   }
   
   .carousel__slide:before {
@@ -448,6 +452,23 @@ line-height: 16px;
     filter: unset;
   }
 
+  .mob-scroll {
+    display: flex;
+    overflow-x: auto;
+    padding-top: 30px;
+    height: 345px;
+  }
+
+  #phone-only {
+    display: none;
+    max-width: 100%;
+    background-color: #000;
+  }
+
+  #mob-pad {
+    padding-top: unset;
+  }
+
 
 
 
@@ -456,12 +477,32 @@ line-height: 16px;
         top: unset;
     }
 
+    #lower-section {
+      display: none;
+    }
+
+    .mt-mob {
+      padding-top: 60px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    #scroll {
+      display: none;
+    }
+
 
     .hp-title {
         font-size: 50px;
     }
     .mt-hosts h1 {
-      font-size: 50px;
+      font-size: 40px;
+      padding-top: 13px;
+    }
+
+    .mt-hosts {
+      padding-top: 35px;
     }
 
     .scroll-container {
@@ -476,6 +517,7 @@ line-height: 16px;
       height: 789px;
       margin-bottom: unset;
       padding-top: unset;
+      margin-top: unset;
   }
     .mob-section {
         display: block;
@@ -488,6 +530,32 @@ line-height: 16px;
 
     .terms {
         font-size: 22px;
+    }
+
+    #phone-only {
+      display: block;
+      margin-top: 76px;
+      height: 552px;
+    }
+
+    .mob-learn {
+      position: relative;
+    left: 29%;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    border: 1px solid #fff;
+    width: 40%;
+    padding: 6px;
+    border-radius: 30px;
+    }
+
+    /* p {
+      margin-bottom: 0rem;
+    } */
+
+    #mob-pad {
+      padding-top: 30px;
     }
  
 }

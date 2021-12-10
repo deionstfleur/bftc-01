@@ -58,9 +58,11 @@ const Playlists = () => {
 
                                 <h1>Come see our Favorite Moments</h1> 
                                 <p className="ds-sub" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. </p>
-                               <a href="https://www.youtube.com/playlist?list=PLqpjW58LUV3wH4I2w6itZgtunKm_i7Zfy" target="_blank">
-                                <p>Learn More</p>
-                                </a>
+                                <div>
+                                        <a href="" target="_blank">
+                                              <p style={{marginBottom: '0rem'}} className="mob-learn">Learn More</p>
+                                         </a>
+                                </div>
                             </div>
                         </div>
 

@@ -8,6 +8,7 @@ import Yves from '../../assets/Yves.jpeg'
 import Clark from '../../assets/Clark-D.jpeg'
 import Bori from '../../assets/Borirock.jpeg'
 import Kei from '../../assets/Kei.jpeg'
+import Kieh from '../../assets/kieh.jpeg'
 import Group from '../../assets/group.jpeg'
 import Trio from '../../assets/trio.jpeg'
 import Logo from '../../assets/logo.png'
@@ -63,22 +64,22 @@ const Home = () => {
 			<h3 className="rg-title">Recent Guests</h3>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Clark}  class="img-fluid"   height="330" width="350" />
-						<p className="artist-title"> GuyClaude &amp; Clark D Interview - Episode 20 </p>
+					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Kieh}  class="img-fluid"   height="330" width="350" />
+						<p className="artist-title"> Kieh Interview - Episode 20 </p>
+						<div className="guest-btn">
+							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Vf6_9Vj-on8"> <span> Listen Now </span> </a>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Clark}   class="img-fluid" height="330" width="350" />
+						<p className="artist-title">GuyClaude &amp; Clark D Interview - Episode 19</p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Kei}   class="img-fluid" height="330" width="350" />
-						<p className="artist-title">Kei Interview - Episode 19 </p>
-						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rXnYSkwQ36w"> <span> Listen Now </span> </a>
-						</div>
-					</div>
 					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Kei} class="img-fluid" height="330" width="350" />
-						<p className="artist-title"> BoriRock - Episode 18 </p>
+						<p className="artist-title"> Kei Interview - Episode 18  </p>
 						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
+							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rXnYSkwQ36w"> <span> Listen Now</span> </a>
 						</div>
 					</div>
 				</div>
@@ -120,7 +121,7 @@ const Home = () => {
 
 		<div id="scroll" style={{paddingTop: 90}} class="container">
 
-				<h1 style={{fontSize: 62, width: '72%', margin: 'auto', fontWeight: 'bold'}} class="text-center">Meet The Hosts</h1>
+				<h1 style={{fontSize: 62, width: '72%', margin: 'auto', fontWeight: 'bold', marginBottom: 30}} class="text-center">Meet The Hosts</h1>
 			<div className="scroll-container" class="row">
 			<div class="col-md-3 col-xs-12"> 
 			<img className="artist-hover" src={RobHome}  class="img-fluid"   height="330" width="350" />
@@ -158,14 +159,40 @@ const Home = () => {
 
 		</div>
 
+
+
+					
+
+					
+<div id="phone-only">
+
+			<h1 className="mt-mob"> Meet the Hosts </h1>
+		<div class="mob-scroll">
+
+
+			<img height="200" src={RobHome} />
+			<img height="200" src={YvesHome} />
+			<img height="200"src={TomoHome} />
+			<img height="200" src={NateHome} />
+
+		</div>
+		<div>
+			<Link to="/About">
+				<p style={{marginBottom: '0rem'}} className="mob-learn">Learn More</p>
+			</Link>
+		</div>
+
+
+
 	</div>
 
+</div>
 	<div id="last-level" class="container">
 		<div class="row">
 			<div class="col-md-6 col-xs-12">
 				<div className="mt-hosts">
 					<div class="container">
-						<p style={{marginBottom: -4}}> Our Choices For </p>
+						<p style={{marginBottom: -4, marginLeft: 10}}> Our Choices For </p>
 						<h1> Good For The Community </h1>
 						<p> Follow along with our hosts, Young Rob and Saint Yves, Tomo and Nate Nics as they discuss a broad range of topics and interview the top leaders in their respective industries.</p>
 						<div style={{paddingTop: 12}} className="episode-btn-4">
@@ -177,7 +204,7 @@ const Home = () => {
 				</div>
 			</div>
 			<div class="col-md-6 col-xs-12"> 
-                 <img  src={Trio} class="img-fluid" /> 
+                 <img id="mob-pad"  src={Trio} class="img-fluid" /> 
             </div>
 		</div>
 	</div>
