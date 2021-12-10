@@ -7,6 +7,10 @@
     background-color: black!important;
 }
 
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: white;
+}
 
 .form-inline li {
     list-style: none;
