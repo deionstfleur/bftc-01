@@ -37,10 +37,14 @@ const Home = () => {
 
                 <div class="col-xs-12 col-md-6">
                 </div>
+				<div data-aos="fade-up">
+
                     <h2 className="hp-title"> Bad For the Community</h2>
                     <div style={{paddingTop: 20}} className="episode-btn">
                         <a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Watch Latest Episode </span> </a>
                     </div>
+				</div>
+
 
                 <div class="col-xs-12 col-md-6">
                     {/* <img src={Logo} class="img-fluid" /> */}
@@ -58,6 +62,9 @@ const Home = () => {
 	</div>
 	<div>
 		<div class="container">
+
+		<div data-aos="fade-up">
+
 
             <div id="dt-none">
 
@@ -85,7 +92,12 @@ const Home = () => {
 				</div>
 			</div>
             </div>
+		</div>
+
+
+
 			<div className="mob-section">
+		<div data-aos="fade-up">
 				<div class="container">
 
 		        	<h3 className="rg-title">Recent Guests</h3>
@@ -115,8 +127,19 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
+			</div>
+
+
+
+
+
+
+		</div>
+
+
+
+		<div data-aos="fade-up">
 
 
 		<div id="scroll" style={{paddingTop: 90}} class="container">
@@ -124,38 +147,206 @@ const Home = () => {
 				<h1 style={{fontSize: 62, width: '72%', margin: 'auto', fontWeight: 'bold', marginBottom: 30}} class="text-center">Meet The Hosts</h1>
 			<div className="scroll-container" class="row">
 			<div class="col-md-3 col-xs-12"> 
-			<img className="artist-hover" src={RobHome}  class="img-fluid"   height="330" width="350" />
+			<img className="artist-hover" src={RobHome} data-toggle="modal" data-target="#exampleModalCenter"  class="img-fluid"   height="330" width="350" />
 						{/* <p className="artist-title"> GuyClaude &amp; Clark D Interview - Episode 20 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
 						</div> */}
+
+									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Young Rob</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={RobHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>Bio</p>
+
+													
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
 				</div>
 					<div id="switch" class="col-md-3 col-xs-12"> 
-					<img className="artist-hover" src={YvesHome}   class="img-fluid" height="130" width="850" />
+					<img className="artist-hover" src={YvesHome} data-toggle="modal" data-target="#exampleModalCenter2"   class="img-fluid" height="130" width="850" />
 					{/* <img className="artist-hover" src={YvesHome2}   class="img-fluid" id="img-top" height="330" width="350" /> */}
 						{/* <p className="artist-title">Kei Interview - Episode 19 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rXnYSkwQ36w"> <span> Listen Now </span> </a>
 						</div> */}
+
+
+<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Yves</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={YvesHome2} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>Bio</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
 					</div>
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
 						</div> */}
+
+
+<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Tomo</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={TomoHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>lorem ipsum</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
 					</div>
 
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome} class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
 						</div> */}
+
+
+
+<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Nate</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={NateHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>Bio</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
 
 					
 					</div>
 
 
 			</div>
+
+		</div>
 
 		</div>
 
@@ -170,16 +361,173 @@ const Home = () => {
 		<div class="mob-scroll">
 
 
-			<img height="200" src={RobHome} />
-			<img height="200" src={YvesHome} />
-			<img height="200"src={TomoHome} />
-			<img height="200" src={NateHome} />
+			<img height="200" data-toggle="modal" data-target="#exampleModalCenter5" src={RobHome} />
+
+<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Nate</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={RobHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>Bio</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
+			<img height="200" data-toggle="modal" data-target="#exampleModalCenter6" src={YvesHome} />
+			<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Nate</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={YvesHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>bio</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
+			<img height="200"  data-toggle="modal" data-target="#exampleModalCenter7" src={TomoHome} />
+			<div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Nate</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={TomoHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>Bio</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
+			<img height="200"  data-toggle="modal" data-target="#exampleModalCenter8" src={NateHome} />
+			<div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered" role="document">
+										<div class="modal-content">
+										<div class="modal-header">
+											<h5 class="modal-title" id="exampleModalLongTitle">Nate</h5>
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+											</button>
+										</div>
+										<div class="modal-body">
+											
+											<div class="container">
+
+												<div class="row">
+
+													<div class="col-xs-12 col-md-6">
+
+														<img src={NateHome} class="img-fluid" />
+
+													</div>
+
+
+													<div class="col-xs-12 col-md-6">
+
+														<p>Bio</p>
+
+													</div>
+
+												</div>
+
+											</div>
+											
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+										</div>
+										</div>
+									</div>
+									</div>
 
 		</div>
 		<div>
-			<Link style={{textDecoration: 'none'}} to="/About">
-				<p style={{marginBottom: '0rem'}} className="mob-learn">Learn More</p>
-			</Link>
+			<a href="https://www.instagram.com/bftcpodcast/" target="_blank" style={{textDecoration:'none'}}>
+				<p style={{marginBottom: '0rem'}} className="mob-learn">Instagram</p>
+			</a>
 		</div>
 
 
@@ -187,7 +535,11 @@ const Home = () => {
 	</div>
 
 </div>
+
 	<div id="last-level" class="container">
+<div data-aos="fade-up">
+
+
 		<div class="row">
 			<div class="col-md-6 col-xs-12">
 				<div className="mt-hosts">
@@ -207,6 +559,7 @@ const Home = () => {
                  <img id="mob-pad"  src={Trio} class="img-fluid" /> 
             </div>
 		</div>
+</div>
 	</div>
 
 

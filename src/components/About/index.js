@@ -70,6 +70,8 @@ const About = () => {
 
         <div id="spacing" id="podder-container" class="container">
 
+        <div data-aos="fade-right">
+
             <div class="row">
 
                 <div class="col-md-6 col-xs-12">
@@ -103,6 +105,11 @@ const About = () => {
             </div>
 
 
+        </div>
+
+
+        <div data-aos="fade-left">
+
         <div id="spacing" class="row">
 
             <div class="col-md-6 col-xs-12">
@@ -133,6 +140,10 @@ const About = () => {
         </div>
 
 
+        </div>
+
+
+        <div data-aos="fade-right">
         <div id="spacing" class="row">
 
             <div class="col-md-6 col-xs-12">
@@ -165,6 +176,11 @@ const About = () => {
         </div>
 
 
+        </div>
+
+
+
+        <div data-aos="fade-left">
 
 
         <div  id="spacing" class="row" style={{marginBottom: 200}}>
@@ -194,6 +210,10 @@ const About = () => {
                     </div>
 
             </div>
+
+        </div>
+
+
 
         </div>
 
