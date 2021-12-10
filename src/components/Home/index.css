@@ -73,11 +73,11 @@ html {
 }
 
 .episode-btn span {
-    border: 1px solid red;
-    border-radius: 10px;
+    border: 1px solid cadetblue;
+    border-radius: 30px;
     padding: 10px;
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: white;
     font-weight: bold;
     cursor: pointer;
 }
@@ -466,11 +466,17 @@ line-height: 16px;
   #phone-only {
     display: none;
     max-width: 100%;
-    background-color: #000;
+    background-color: cadetblue;
   }
 
   #mob-pad {
     padding-top: unset;
+  }
+
+  .navbar-toggler {
+    border-radius: 30px;
+    padding-left: 7px;
+    padding-right: 7px;
   }
 
 
@@ -505,7 +511,8 @@ line-height: 16px;
 
 
     .hp-title {
-        font-size: 50px;
+      font-size: 66px;
+      font-weight: bold;
     }
     .mt-hosts h1 {
       font-size: 40px;
@@ -522,7 +529,7 @@ line-height: 16px;
     }
 
     #top-section {
-        height: 399px;
+        height: 500px;
     }
   #last-level {
       height: 789px;

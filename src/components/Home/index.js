@@ -177,7 +177,7 @@ const Home = () => {
 
 		</div>
 		<div>
-			<Link to="/About">
+			<Link style={{textDecoration: 'none'}} to="/About">
 				<p style={{marginBottom: '0rem'}} className="mob-learn">Learn More</p>
 			</Link>
 		</div>
