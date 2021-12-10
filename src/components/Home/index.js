@@ -196,7 +196,7 @@ const Home = () => {
 						<h1> Good For The Community </h1>
 						<p> Follow along with our hosts, Young Rob and Saint Yves, Tomo and Nate Nics as they discuss a broad range of topics and interview the top leaders in their respective industries.</p>
 						<div style={{paddingTop: 12}} className="episode-btn-4">
-                            <Link to="/About" style={{textDecoration: 'none'}}>
+                            <Link to="/" style={{textDecoration: 'none'}}>
 							    <p style={{textDecoration: 'none'}} target="_blank"> <span> Explore </span> </p>
                             </Link>
 						</div>

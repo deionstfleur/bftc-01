@@ -47,6 +47,33 @@ const Playlists = () => {
 
             </div>
 
+
+                    <div id="middle-section">
+
+                        <div>
+
+                            <h1 className="middle-title">Playlists and music that we love</h1>
+
+                            <div className="mob-button-container">
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Rob</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Yves</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Tomo</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Nate</p>
+                            </div>
+
+                            <div style={{display: 'flex', justifyContent: 'space-between', overflowX: 'auto', width: '120%', maxWidth: '100%'}}>
+
+                     
+                          
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
             <div id="different-section">
 
                 <div class="container">
@@ -59,7 +86,7 @@ const Playlists = () => {
                                 <h1>Come see our Favorite Moments</h1> 
                                 <p className="ds-sub" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. </p>
                                 <div>
-                                        <a href="" target="_blank">
+                                        <a style={{textDecoration: 'none'}} href="https://www.youtube.com/playlist?list=PLqpjW58LUV3wH4I2w6itZgtunKm_i7Zfy" target="_blank">
                                               <p style={{marginBottom: '0rem'}} className="mob-learn">Learn More</p>
                                          </a>
                                 </div>

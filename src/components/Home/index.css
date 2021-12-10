@@ -459,6 +459,10 @@ line-height: 16px;
     height: 345px;
   }
 
+  .mob-scroll::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+
   #phone-only {
     display: none;
     max-width: 100%;
@@ -475,6 +479,13 @@ line-height: 16px;
 @media screen and (max-width: 767px) {
     #dt-fix {
         top: unset;
+    }
+
+    .rg-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    padding-left: unset;
     }
 
     #lower-section {

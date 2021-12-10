@@ -110,6 +110,41 @@
    color: black;
   }
 
+
+.middle-title {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 35px;
+    margin-bottom: 35px;
+    font-size: 62px;
+    width: 40%;
+    margin: auto;
+}
+
+
+.mob-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 27%;
+    padding-top: 24px;
+    margin: 0 auto;
+}
+
+.mob-filter-button {
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mob-filter-button:hover {
+    background-color: black;
+    color: tomato;
+}
+
+
+
 @media screen and (max-width: 767px) {
     #play-section {
         height: 683px;
@@ -157,6 +192,28 @@
 
     .big-biz {
         left: 40%;
+    }
+
+    .mob-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 66%;
+    margin-left: 66px;
+    }
+
+    .mob-filter-button {
+    /* border: 1px solid; */
+    padding: 2px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    }
+
+    .middle-title {
+        font-size: unset;
+        width: unset;
+        font-size: 30px;
     }
 
 }
