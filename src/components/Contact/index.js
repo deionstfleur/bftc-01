@@ -23,7 +23,9 @@ const Contact = () => {
             <Navbar />
 
             <div id="contact-section" class="container">
-            
+
+            <div data-aos="fade-up">
+
             <div class="row">
 
                 <div class="col-xl-6 col-sm-12">
@@ -47,6 +49,9 @@ const Contact = () => {
                 </div>
 
             </div>
+            </div>
+
+            
 
 
             </div>
