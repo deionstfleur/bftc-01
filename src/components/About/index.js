@@ -86,12 +86,16 @@ const About = () => {
 
                     <div>
 
-                    <h3>Follow Me</h3>
+                    <h3 className="fm-dt">Follow Me</h3>
                     </div>
 
-                    <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
-                            <p>Instagram</p>
-                            <p>Twitter</p>
+                    <div className="social-styling">
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                           </div>
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                           </div>
                     </div>
 
                 </div>
@@ -113,14 +117,16 @@ const About = () => {
 
                 <p className="podder-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
 
-                <h3>Follow Me</h3>
+                <h3 className="fm-dt">Follow Me</h3>
 
-                <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
-
-                    <p>Instagram</p>
-                    <p>Twitter</p>
-
-                </div>
+                <div className="social-styling">
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                           </div>
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                           </div>
+                    </div>
 
             </div>
 
@@ -142,14 +148,17 @@ const About = () => {
 
                 <p className="podder-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
 
-                <h3>Follow Me</h3>
+                <h3 className="fm-dt">Follow Me</h3>
 
-                <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
-
-                    <p>Instagram</p>
-                    <p>Twitter</p>
-
-                </div>
+           
+                <div className="social-styling">
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                           </div>
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                           </div>
+                    </div>
 
             </div>
 
@@ -172,14 +181,17 @@ const About = () => {
 
                 <p className="podder-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Nulla consequat facilisis ante, quis scelerisque ligula consectetur a. Cras ut fringilla tellus.</p>
 
-                <h3>Follow Me</h3>
+                <h3 className="fm-dt">Follow Me</h3>
 
-                <div style={{display: 'flex', justifyContent: 'space-between', width: '30%', textDecoration: 'underline', cursor: 'pointer'}}>
-
-                    <p>Instagram</p>
-                    <p>Twitter</p>
-
-                </div>
+          
+                <div className="social-styling">
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                           </div>
+                           <div>
+                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                           </div>
+                    </div>
 
             </div>
 
@@ -191,42 +203,7 @@ const About = () => {
 
 
 <Footer />
-            {/* <footer>
-                <div id="footer-container" class="container">
-
-                    <div class="row">
-
-                        <div  class="col-md-4 col-xs-12 left-footer">
-                            <p>Follow Us</p>
-                            <p className="footer-links">Instagram</p>
-                            <p className="footer-links">Twitter</p>
-                            <p className="footer-links">Tiktok</p>
-                        </div>
-
-
-                        <div class="col-md-4 col-xs-12 middle-footer">
-                            <p >Where to Listen</p>
-                            <p className="footer-links">Apple</p>
-                            <p className="footer-links">Spotify</p>
-                            <p className="footer-links">Tidal</p>
-                        </div>
-
-                        <div class="col-md-4 col-xs-12 right-footer">
-                           <h1>BAD FOR THE COMMUNITY</h1>
-
-                           <p style={{color: 'red'}}>2021</p>
-                            
-                        </div>
-
-
-
-
-                    </div>
-
-                </div>
-            </footer> */}
-
-
+            
         </div>
     )
 }

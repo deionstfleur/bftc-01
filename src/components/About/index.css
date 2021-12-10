@@ -102,12 +102,36 @@
     padding-bottom: 13px;
 }
 
+.social-styling {
+    display: flex;
+    justify-content: space-between;
+    width: 30%; 
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.social-styling {
+    width: 35%;
+
+}
+
+.fm-dt {
+    display: block;
+}
 
 
 
 @media screen and (max-width: 767px) {
     #mb {
         margin-bottom: 100px;
+    }
+
+    .fm-dt {
+        display: none;
+    }
+
+    .social-styling {
+        width: 60%;
     }
 
  
@@ -119,6 +143,20 @@
         padding-top: 80px;
     }
     
+    .instagram-button {
+     padding: 10px;
+    text-decoration: none;
+    border: 1px solid black !important;
+    }
+
+    .twitter-button {
+     padding: 10px;
+     text-decoration: none;
+     padding-right: 19px;
+     padding-left: 19px;
+     border: 1px solid black !important;
+
+    }
     
   
 }
