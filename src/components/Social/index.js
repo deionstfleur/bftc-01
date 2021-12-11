@@ -7,7 +7,7 @@ const Social = () => {
         <div>
             <Navbar />
 
-            <p>lol</p>
+            <p class="text-center" style={{fontSize: 62, fontWeight: 'bold', paddingTop: 50}}>Coming Soon !</p>
             
         </div>
     )
