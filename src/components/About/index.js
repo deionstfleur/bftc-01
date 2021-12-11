@@ -93,10 +93,14 @@ const About = () => {
 
                     <div className="social-styling">
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <a href="https://instagram.com/the508god?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}} target="_blank">
+                                 <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                            </a>
                            </div>
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <a href="https://mobile.twitter.com/the508god" style={{textDecoration: 'none', color: 'black'}} target="_blank">
+                                   <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                                 </a>
                            </div>
                     </div>
 
@@ -128,10 +132,14 @@ const About = () => {
 
                 <div className="social-styling">
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <a href="https://instagram.com/snt.yves?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                                 <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                                 </a>
                            </div>
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <a href="https://mobile.twitter.com/snt_yves" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                                 <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                                 </a>
                            </div>
                     </div>
 
@@ -164,10 +172,14 @@ const About = () => {
            
                 <div className="social-styling">
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <a href="https://instagram.com/kobk617?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                                     <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                                </a>
                            </div>
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <a href="https://mobile.twitter.com/kobk617" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                                   <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                                </a>
                            </div>
                     </div>
 
@@ -202,10 +214,14 @@ const About = () => {
           
                 <div className="social-styling">
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <a href="https://instagram.com/nicsnation_?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                                   <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               </a>
                            </div>
                            <div>
-                            <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <a href="https://mobile.twitter.com/nicsnation" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                                  <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                             </a>
                            </div>
                     </div>
 

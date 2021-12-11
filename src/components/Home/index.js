@@ -15,10 +15,13 @@ import Logo from '../../assets/logo.png'
 import {Link} from 'react-router-dom'
 import Footer from '../Footer'
 import RobHome from '../../assets/berto-home.jpeg'
+import RobHome2 from '../../assets/berto-home-2.jpeg'
 import YvesHome from '../../assets/yves-home-1.jpeg'
 import YvesHome2 from '../../assets/yves-home-2.jpeg'
 import TomoHome from '../../assets/tomo-home-1.jpeg'
+import TomoHome2 from '../../assets/tomo-home-2.jpeg'
 import NateHome from '../../assets/nate-nics-home-1.jpeg'
+import NateHome2 from '../../assets/nate-nics-home-2.jpeg'
 import Duo from '../../assets/duo.jpeg'
 
 
@@ -170,7 +173,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={RobHome} class="img-fluid" />
+														<img src={RobHome2} class="img-fluid" />
 
 													</div>
 
@@ -268,7 +271,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={TomoHome} class="img-fluid" />
+														<img src={TomoHome2} class="img-fluid" />
 
 													</div>
 
@@ -317,7 +320,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={NateHome} class="img-fluid" />
+														<img src={NateHome2} class="img-fluid" />
 
 													</div>
 
@@ -380,7 +383,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={RobHome} class="img-fluid" />
+														<img src={RobHome2} class="img-fluid" />
 
 													</div>
 
@@ -420,7 +423,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={YvesHome} class="img-fluid" />
+														<img src={YvesHome2} class="img-fluid" />
 
 													</div>
 
@@ -460,7 +463,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={TomoHome} class="img-fluid" />
+														<img src={TomoHome2} class="img-fluid" />
 
 													</div>
 
@@ -500,7 +503,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={NateHome} class="img-fluid" />
+														<img src={NateHome2} class="img-fluid" />
 
 													</div>
 
