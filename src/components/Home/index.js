@@ -23,6 +23,7 @@ import TomoHome2 from '../../assets/tomo-home-2.jpeg'
 import NateHome from '../../assets/nate-nics-home-1.jpeg'
 import NateHome2 from '../../assets/nate-nics-home-2.jpeg'
 import Duo from '../../assets/duo.jpeg'
+import Arrow from '../../assets/arrow-forward-outline.svg'
 
 
 
@@ -71,28 +72,49 @@ const Home = () => {
 
             <div id="dt-none">
 
-			<h3 className="rg-title">Recent Guests</h3>
+			<div style={{display: 'flex', justifyContent: 'space-between'}}>
+	
+			<h3 className="rg-title">Recent Episodes</h3>
+			<h3 style={{position: 'relative', left: '-4%', cursor: 'pointer', fontSize: 20}} className="rg-title">Explore More &#8594;  </h3>
+
+			</div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Kieh}  class="img-fluid"   height="330" width="350" />
-						<p className="artist-title"> Kieh Interview - Episode 20 </p>
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Kieh} style={{borderRadius: 20}} class="img-fluid"   height="100%" width="100%" />
+						<p className="artist-title"> <strong> Kieh Interview  </strong> Episode 20 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Vf6_9Vj-on8"> <span> Listen Now </span> </a>
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Clark}   class="img-fluid" height="330" width="350" />
-						<p className="artist-title">GuyClaude &amp; Clark D Interview - Episode 19</p>
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Clark} style={{borderRadius: 20}}  class="img-fluid" height="100%" width="100%" />
+						<p className="artist-title"> <strong>GuyClaude &amp; Clark D Interview </strong> Episode 19</p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
 						</div>
 					</div>
-					<div class="col-md-4 col-xs-12"> <img className="artist-hover" src={Kei} class="img-fluid" height="330" width="350" />
-						<p className="artist-title"> Kei Interview - Episode 18  </p>
+
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Kieh} style={{borderRadius: 20}} class="img-fluid"   height="100%" width="100%" />
+						<p className="artist-title"> <strong> Kieh Interview </strong> Episode 20 </p>
 						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rXnYSkwQ36w"> <span> Listen Now</span> </a>
+							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Vf6_9Vj-on8"> <span> Listen Now </span> </a>
+						</div>
+					</div>
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Clark} style={{borderRadius: 20}}style={{borderRadius: 20}}  class="img-fluid" height="100%" width="100%" />
+						<p className="artist-title"> <strong> GuyClaude &amp; Clark D Interview </strong> Episode 19</p>
+						<div className="guest-btn">
+							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
 						</div>
 					</div>
 				</div>
+
+	
+
+	
+	
+
+							<div>
+								<p></p>
+							</div>
 			</div>
             </div>
 		</div>
@@ -173,14 +195,18 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={RobHome2} class="img-fluid" />
+														{/* <img src={RobHome2} class="img-fluid" /> */}
+														<iframe width="100%" height="200" src="https://www.youtube.com/embed/OTjcJK0rlU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 													</div>
 
 
 													<div class="col-xs-12 col-md-6">
 
-														<p>Bio</p>
+														<p>IG</p>
+														<p>TWITTER</p>
+
+														<p style={{textAlign: 'center', border: '1px solid black', padding: 10}}>Bio</p>
 
 													
 
@@ -231,8 +257,11 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<p>Bio</p>
 
+													<p>IG</p>
+														<p>TWITTER</p>
+
+														<p style={{textAlign: 'center', border: '1px solid black', padding: 10}}>Bio</p>
 													</div>
 
 												</div>
@@ -278,8 +307,11 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<p>lorem ipsum</p>
 
+													<p>IG</p>
+														<p>TWITTER</p>
+
+														<p style={{textAlign: 'center', border: '1px solid black', padding: 10}}>Bio</p>
 													</div>
 
 												</div>
@@ -327,8 +359,11 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<p>Bio</p>
 
+													<p>IG</p>
+														<p>TWITTER</p>
+
+														<p style={{textAlign: 'center', border: '1px solid black', padding: 10}}>Bio</p>
 													</div>
 
 												</div>
@@ -539,9 +574,10 @@ const Home = () => {
 
 </div>
 
-	<div id="last-level" class="container">
+	<div id="last-level">
 <div data-aos="fade-up">
 
+<div class="container">
 
 		<div class="row">
 			<div class="col-md-6 col-xs-12">
@@ -562,6 +598,7 @@ const Home = () => {
                  <img id="mob-pad"  src={Trio} class="img-fluid" /> 
             </div>
 		</div>
+</div>
 </div>
 	</div>
 

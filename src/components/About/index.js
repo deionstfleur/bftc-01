@@ -13,7 +13,6 @@ import Yves2 from '../../assets/Yves-2.jpeg'
 import Footer from '../Footer'
 import { Container, Row, Col } from 'bootstrap-4-react';
 
-
 const About = () => {
     return (
         <div>
@@ -219,7 +218,7 @@ const About = () => {
                                </a>
                            </div>
                            <div>
-                               <a href="https://mobile.twitter.com/nicsnation" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
+                               <a href="https://mobile.twitter.com/nicsnation" style={{textDecoration: 'none', color: 'black'}} target="_blank">
                                   <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
                              </a>
                            </div>
