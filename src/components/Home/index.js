@@ -9,6 +9,7 @@ import Clark from '../../assets/Clark-D.jpeg'
 import Bori from '../../assets/Borirock.jpeg'
 import Kei from '../../assets/Kei.jpeg'
 import Kieh from '../../assets/kieh.jpeg'
+import Tamera from '../../assets/tamera.jpeg'
 import Group from '../../assets/group.jpeg'
 import Trio from '../../assets/trio.jpeg'
 import Logo from '../../assets/logo.png'
@@ -37,10 +38,7 @@ const Home = () => {
 	<div id="top-section">
 		<div id="main" class="container">
             <div class="row">
-            </div>
-
                 <div class="col-xs-12 col-md-6">
-                </div>
 				<div data-aos="fade-up">
 
                     <h2 className="hp-title"> Bad For the Community</h2>
@@ -48,12 +46,18 @@ const Home = () => {
                         <a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Watch Latest Episode </span> </a>
                     </div>
 				</div>
+                </div>
 
 
                 <div class="col-xs-12 col-md-6">
-                    {/* <img src={Logo} class="img-fluid" /> */}
+				<div data-aos="fade-up">
+                    <img src={Logo} class="img-fluid" />
+
+				</div>
 
                 </div>
+            </div>
+
 
 		</div>
 	</div>
@@ -68,42 +72,74 @@ const Home = () => {
 	<div class="wide-container">
 
 		<div style={{display: 'flex', justifyContent: 'space-between'}}>
-			<h2 style={{paddingTop: 30, marginBottom: 30, fontSize: 34, fontWeight: 'bold'}}>Browse Epsisodes</h2>
+			<h2 style={{paddingTop: 30, marginBottom: 30, fontSize: 34, fontWeight: 'bold'}}>Browse Episodes</h2>
 			<Link to="/Browse-Episodes" style={{textDecoration: 'none', color: 'black'}}>
 				<h2 style={{paddingTop: 44,fontSize: 18}}> Explore More &#8594;</h2>
 			</Link>
 		</div>
 		<div class="row">
 		<div id="artist-card"  class="col-xs-12 col-md-3">
-			<img src={Kieh} style={{borderRadius: 20}} class="img-fluid" />
+			<img src={Tamera} style={{borderRadius: 20}} class="img-fluid" />
 			<p className="episode-titles">Episode</p>
-			<h3 style={{textAlign: 'center'}}>Kieh</h3>
-			<div className="episode-btn">
-				<span>Listen</span>
+			<h3 style={{textAlign: 'center'}}>Tamera</h3>
+			<div  class="dropdown-show">
+				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span>Listen</span>
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">Soundcloud</a>
+						<a class="dropdown-item" href="#">Apple</a>
+						<a class="dropdown-item" href="#">Youtube</a>
+					</div>
 			</div>
 		</div>
 		<div id="artist-card"  class="col-xs-12 col-md-3">
 			<img src={Clark} style={{borderRadius: 20}} class="img-fluid" />
 			<p className="episode-titles">Episode</p>
 			<h3  style={{textAlign: 'center'}}>Guy and Clark D</h3>
-			<div className="episode-btn">
-				<span>Listen</span>
+			<div  class="dropdown-show">
+				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span>Listen</span>
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">Soundcloud</a>
+						<a class="dropdown-item" href="#">Apple</a>
+						<a class="dropdown-item" href="#">Youtube</a>
+					</div>
 			</div>
 		</div>
 		<div  id="artist-card" class="col-xs-12 col-md-3">
 			<img src={Kei} style={{borderRadius: 20}} class="img-fluid" />
 			<p className="episode-titles">Episode</p>
 			<h3  style={{textAlign: 'center'}} >Kei</h3>
-			<div className="episode-btn">
-				<span>Listen</span>
+			<div  class="dropdown-show">
+				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span>Listen</span>
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">Soundcloud</a>
+						<a class="dropdown-item" href="#">Apple</a>
+						<a class="dropdown-item" href="#">Youtube</a>
+					</div>
 			</div>
 		</div>
 		<div id="artist-card"  class="col-xs-12 col-md-3">
 			<img src={Kieh} style={{borderRadius: 20}} class="img-fluid" />
 			<p className="episode-titles">Episode</p>
 			<h3  style={{textAlign: 'center'}}>Kieh</h3>
-			<div className="episode-btn">
-				<span>Listen</span>
+			<div  class="dropdown-show">
+				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span>Listen</span>
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">Soundcloud</a>
+						<a class="dropdown-item" href="#">Apple</a>
+						<a class="dropdown-item" href="#">Youtube</a>
+					</div>
 			</div>
 		</div>
 
@@ -345,6 +381,7 @@ const Home = () => {
 <div id="phone-only">
 
 			<h1 className="mt-mob"> Meet the Hosts </h1>
+			<p className="swipe"> Swipe &#8594; </p>
 		<div class="mob-scroll">
 
 
@@ -524,27 +561,35 @@ const Home = () => {
 
 	<div id="logos-section">
 
-		<div class="container">
+		<div id="inner-logo" class="text-center">
 
 		<div class="row">
 
-			<div class="col-md-3">
-				<h1>Logo</h1>
+			<div class="col-md-6">
+				<h1>Stay Connected and join our Newsletter</h1>
 			</div>
 
-			<div class="col-md-3">
-				<h1>Logo</h1>
+			<div class="col-md-6">
+			<form>
+  <div class="form-row align-items-center">
+  
+    <div class="col-auto">
+      <label class="sr-only" for="inlineFormInputGroup">Email</label>
+      <div class="input-group mb-2">
+        <div class="input-group-prepend">
+          <div class="input-group-text">@</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email" />
+      </div>
+    </div>
+
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary mb-2">Submit</button>
+    </div>
+  </div>
+</form>
+
 			</div>
-
-			<div class="col-md-3">
-					<h1>Logo</h1>
-			</div>
-
-
-			<div class="col-md-3">
-					<h1>Logo</h1>
-			</div>
-
 
 		</div>
 
@@ -573,7 +618,7 @@ const Home = () => {
 	<div id="last-level">
 <div data-aos="fade-up">
 
-<div class="container">
+<div id="ct-padding" class="container">
 
 		<div class="row">
 			<div class="col-md-6 col-xs-12">

@@ -40,7 +40,7 @@ const Header = () => {
       <Navbar.Brand class="hack" to="/">
         <Link to="/" style={{cursor: 'pointer', display: 'flex', textDecoration: 'none'}} className="logo">
           <img src={Logo} height="50" />
-      <span>    <p style={{textDecoration: 'none', color: '#fff', color: 'red', position: 'relative', left: '2%', top: '20%', zIndex: 100, fontWeight: 'bold'}}>BFTC</p> </span>
+      <span>    <p className="nav-logo-hover">BFTC</p> </span>
         </Link>
       </Navbar.Brand>
       <Navbar.Toggler target="#navbarSupportedContent" />

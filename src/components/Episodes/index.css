@@ -1,5 +1,35 @@
 #episode-page {
     margin-bottom: 200px;
+    /* display: none; */
+}
+
+
+.show {
+    display: block;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .episodes-btn span {
+    border: 1px solid cadetblue;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+   
+}
+
+
+
+.episodes-btn span:hover {
+  color: #000;
+  background-color: white;
+
 }
 
 

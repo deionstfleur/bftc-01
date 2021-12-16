@@ -23,6 +23,20 @@
     border-color: red !important;
 }
 
+.nav-logo-hover {
+    text-decoration: none; 
+    color: red;
+    position: relative;
+    left: 2%;
+    top: 20%; 
+    z-index: 100; 
+    font-weight: bold;
+}
+
+.nav-logo-hover:hover {
+    color: white;
+}
+
 .btn-outline-success:hover {
     background-color: red !important;
     color: white !important;
