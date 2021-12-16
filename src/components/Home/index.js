@@ -64,115 +64,64 @@ const Home = () => {
 			</div>
 		</div>
 	</div>
-	<div>
-		<div class="container">
 
-		<div data-aos="fade-up">
+	<div class="wide-container">
 
-
-            <div id="dt-none">
-
-			<div style={{display: 'flex', justifyContent: 'space-between'}}>
-	
-			<h3 className="rg-title">Recent Episodes</h3>
-			<h3 style={{position: 'relative', left: '-4%', cursor: 'pointer', fontSize: 20}} className="rg-title">Explore More &#8594;  </h3>
-
+		<div style={{display: 'flex', justifyContent: 'space-between'}}>
+			<h2 style={{paddingTop: 30, marginBottom: 30, fontSize: 34, fontWeight: 'bold'}}>Browse Epsisodes</h2>
+			<Link to="/Browse-Episodes" style={{textDecoration: 'none', color: 'black'}}>
+				<h2 style={{paddingTop: 44,fontSize: 18}}> Explore More &#8594;</h2>
+			</Link>
+		</div>
+		<div class="row">
+		<div id="artist-card"  class="col-xs-12 col-md-3">
+			<img src={Kieh} style={{borderRadius: 20}} class="img-fluid" />
+			<p className="episode-titles">Episode</p>
+			<h3 style={{textAlign: 'center'}}>Kieh</h3>
+			<div className="episode-btn">
+				<span>Listen</span>
 			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Kieh} style={{borderRadius: 20}} class="img-fluid"   height="100%" width="100%" />
-						<p className="artist-title"> <strong> Kieh Interview  </strong> Episode 20 </p>
-						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Vf6_9Vj-on8"> <span> Listen Now </span> </a>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Clark} style={{borderRadius: 20}}  class="img-fluid" height="100%" width="100%" />
-						<p className="artist-title"> <strong>GuyClaude &amp; Clark D Interview </strong> Episode 19</p>
-						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
-						</div>
-					</div>
-
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Kieh} style={{borderRadius: 20}} class="img-fluid"   height="100%" width="100%" />
-						<p className="artist-title"> <strong> Kieh Interview </strong> Episode 20 </p>
-						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Vf6_9Vj-on8"> <span> Listen Now </span> </a>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={Clark} style={{borderRadius: 20}}style={{borderRadius: 20}}  class="img-fluid" height="100%" width="100%" />
-						<p className="artist-title"> <strong> GuyClaude &amp; Clark D Interview </strong> Episode 19</p>
-						<div className="guest-btn">
-							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
-						</div>
-					</div>
-				</div>
-
-	
-
-	
-	
-
-							<div>
-								<p></p>
-							</div>
+		</div>
+		<div id="artist-card"  class="col-xs-12 col-md-3">
+			<img src={Clark} style={{borderRadius: 20}} class="img-fluid" />
+			<p className="episode-titles">Episode</p>
+			<h3  style={{textAlign: 'center'}}>Guy and Clark D</h3>
+			<div className="episode-btn">
+				<span>Listen</span>
 			</div>
-            </div>
+		</div>
+		<div  id="artist-card" class="col-xs-12 col-md-3">
+			<img src={Kei} style={{borderRadius: 20}} class="img-fluid" />
+			<p className="episode-titles">Episode</p>
+			<h3  style={{textAlign: 'center'}} >Kei</h3>
+			<div className="episode-btn">
+				<span>Listen</span>
+			</div>
+		</div>
+		<div id="artist-card"  class="col-xs-12 col-md-3">
+			<img src={Kieh} style={{borderRadius: 20}} class="img-fluid" />
+			<p className="episode-titles">Episode</p>
+			<h3  style={{textAlign: 'center'}}>Kieh</h3>
+			<div className="episode-btn">
+				<span>Listen</span>
+			</div>
 		</div>
 
-
-
-			<div className="mob-section">
-		<div data-aos="fade-up">
-				<div class="container">
-
-		        	<h3 className="rg-title">Recent Guests</h3>
-					<div class="row">
-						<div class="col-md-12">
-							<section class="carousel" aria-label="Gallery">
-								<ol class="carousel__viewport">
-									<li id="carousel__slide1" tabindex="0" class="carousel__slide">
-										<div class="carousel__snapper"> <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a> <a href="#carousel__slide2" class="carousel__next">Go to next slide</a> </div>
-									</li>
-									<li id="carousel__slide2" tabindex="0" class="carousel__slide">
-										<div class="carousel__snapper"></div> <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a> <a href="#carousel__slide3" class="carousel__next">Go to next slide</a> </li>
-									<li id="carousel__slide3" tabindex="0" class="carousel__slide">
-										<div class="carousel__snapper"></div> <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a> <a href="#carousel__slide4" class="carousel__next">Go to next slide</a> </li>
-									<li id="carousel__slide4" tabindex="0" class="carousel__slide">
-										<div class="carousel__snapper"></div> <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a> <a href="#carousel__slide1" class="carousel__next">Go to first slide</a> </li>
-								</ol>
-								<aside class="carousel__navigation">
-									<ol class="carousel__navigation-list">
-										<li class="carousel__navigation-item"> <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide </a> </li>
-										<li class="carousel__navigation-item"> <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide </a> </li>
-										<li class="carousel__navigation-item"> <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide </a> </li>
-										<li class="carousel__navigation-item"> <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide </a> </li>
-									</ol>
-								</aside>
-							</section>
-						</div>
-					</div>
-				</div>
 		</div>
-			</div>
+		
 
 
+	</div>
+
+	<div data-aos="fade-up">
 
 
-
-
-		</div>
-
-
-
-		<div data-aos="fade-up">
-
-
-		<div id="scroll" style={{paddingTop: 90}} class="container">
+		<div id="scroll" style={{paddingTop: 90, marginBottom: 90}} class="wide-container">
 
 				<h1 style={{fontSize: 62, width: '72%', margin: 'auto', fontWeight: 'bold', marginBottom: 30}} class="text-center">Meet The Hosts</h1>
 			<div className="scroll-container" class="row">
 			<div class="col-md-3 col-xs-12"> 
-			<img className="artist-hover" src={RobHome} data-toggle="modal" data-target="#exampleModalCenter"  class="img-fluid"   height="330" width="350" />
+			<img className="artist-hover" src={RobHome} data-toggle="modal" data-target="#exampleModalCenter"  class="img-fluid"   style={{height: '100%'}} width="350" />
 						{/* <p className="artist-title"> GuyClaude &amp; Clark D Interview - Episode 20 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
@@ -276,7 +225,7 @@ const Home = () => {
 									</div>
 									</div>
 					</div>
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} style={{height: '100%'}} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
@@ -572,7 +521,54 @@ const Home = () => {
 
 	</div>
 
-</div>
+
+	<div id="logos-section">
+
+		<div class="container">
+
+		<div class="row">
+
+			<div class="col-md-3">
+				<h1>Logo</h1>
+			</div>
+
+			<div class="col-md-3">
+				<h1>Logo</h1>
+			</div>
+
+			<div class="col-md-3">
+					<h1>Logo</h1>
+			</div>
+
+
+			<div class="col-md-3">
+					<h1>Logo</h1>
+			</div>
+
+
+		</div>
+
+		</div>
+
+	</div>
+
+
+
+	<div id="new-section">
+
+		<div class="wide-container">
+
+			<div class="row">
+
+			
+
+			</div>
+
+		</div>
+
+	</div>
+
+
 
 	<div id="last-level">
 <div data-aos="fade-up">
@@ -604,42 +600,15 @@ const Home = () => {
 
 
 
-	{/* <div class="container">
-
-	</div>
-		<div class="row">
-
-			<div class="col-xs-12 col-md-6">
-
-				<div style={{backgroundColor:'white', maxWidth: '100%'}}>
-
-					<div class="container">
-
-						<p>GFTC</p>
-					</div>
 
 
-				</div>
-
-			</div>
-
-			<div class="col-xs-12 col-md-6">
-
-				<div style={{backgroundColor:'#ececec',  maxWidth: '100%'}}>
-
-					<div class="container">
-						<p>BFTC</p>
-					</div>
-				</div>
-
-			</div>
-
-		</div> */}
 	
 
+<Footer />
 
 
-    <Footer />
+
+
 	
 </div>
      

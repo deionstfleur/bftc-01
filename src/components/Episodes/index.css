@@ -1,0 +1,10 @@
+#episode-page {
+    margin-bottom: 200px;
+}
+
+
+@media screen and (max-width: 767px) {
+    #episode-page {
+        margin-bottom: 100px;
+    }
+}
