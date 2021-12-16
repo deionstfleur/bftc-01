@@ -11,6 +11,8 @@ import {Link} from 'react-router-dom'
 import Yves from '../../assets/Yves.jpeg'
 import Yves2 from '../../assets/Yves-2.jpeg'
 import Footer from '../Footer'
+import Twitter from '../../assets/twitter-logo.png'
+import Instagram from '../../assets/instagram-logo.png'
 import { Container, Row, Col } from 'bootstrap-4-react';
 
 const About = () => {
@@ -93,12 +95,14 @@ const About = () => {
                     <div className="social-styling">
                            <div>
                                <a href="https://instagram.com/the508god?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}} target="_blank">
-                                 <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                                 {/* <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                                  */}
+                                  <img src={Instagram} class="img-fluid" />
                             </a>
                            </div>
                            <div>
                                <a href="https://mobile.twitter.com/the508god" style={{textDecoration: 'none', color: 'black'}} target="_blank">
-                                   <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <img src={Twitter} class="img-fluid" />
                                  </a>
                            </div>
                     </div>
@@ -132,12 +136,12 @@ const About = () => {
                 <div className="social-styling">
                            <div>
                                <a href="https://instagram.com/snt.yves?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
-                                 <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <img src={Instagram} class="img-fluid" />
                                  </a>
                            </div>
                            <div>
                                <a href="https://mobile.twitter.com/snt_yves" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
-                                 <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <img src={Twitter} class="img-fluid" />
                                  </a>
                            </div>
                     </div>
@@ -172,12 +176,12 @@ const About = () => {
                 <div className="social-styling">
                            <div>
                                <a href="https://instagram.com/kobk617?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
-                                     <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <img src={Instagram} class="img-fluid" />
                                 </a>
                            </div>
                            <div>
                                <a href="https://mobile.twitter.com/kobk617" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
-                                   <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <img src={Twitter} class="img-fluid" />
                                 </a>
                            </div>
                     </div>
@@ -214,12 +218,12 @@ const About = () => {
                 <div className="social-styling">
                            <div>
                                <a href="https://instagram.com/nicsnation_?utm_medium=copy_link" style={{textDecoration: 'none', color: 'black'}}  target="_blank">
-                                   <p style={{border: '1px solid black', padding: 10}} className="instagram-button">Instagram</p>
+                               <img src={Instagram} class="img-fluid" />
                                </a>
                            </div>
                            <div>
                                <a href="https://mobile.twitter.com/nicsnation" style={{textDecoration: 'none', color: 'black'}} target="_blank">
-                                  <p style={{border: '1px solid black', padding: 10}}  className="twitter-button">Twitter</p>
+                               <img src={Twitter} class="img-fluid" />
                              </a>
                            </div>
                     </div>
