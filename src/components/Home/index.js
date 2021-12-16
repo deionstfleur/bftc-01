@@ -51,7 +51,7 @@ const Home = () => {
 
                 <div class="col-xs-12 col-md-6">
 				<div data-aos="fade-up">
-                    <img src={Logo} class="img-fluid" />
+                    <img id="photo-mob-padding" src={Logo} class="img-fluid" />
 
 				</div>
 
@@ -110,7 +110,7 @@ const Home = () => {
 					</div>
 			</div>
 		</div>
-		<div  id="artist-card" class="col-xs-12 col-md-3">
+		<div  id="artist-card" class="col-xs-12 col-md-3 card-gone">
 			<img src={Kei} style={{borderRadius: 20}} class="img-fluid" />
 			<p className="episode-titles">Episode</p>
 			<h3  style={{textAlign: 'center'}} >Kei</h3>
@@ -126,7 +126,7 @@ const Home = () => {
 					</div>
 			</div>
 		</div>
-		<div id="artist-card"  class="col-xs-12 col-md-3">
+		<div id="artist-card"  class="col-xs-12 col-md-3 card-gone">
 			<img src={Kieh} style={{borderRadius: 20}} class="img-fluid" />
 			<p className="episode-titles">Episode</p>
 			<h3  style={{textAlign: 'center'}}>Kieh</h3>

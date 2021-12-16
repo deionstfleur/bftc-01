@@ -622,7 +622,15 @@ line-height: 16px;
     }
 
     #top-section {
-        height: 650px;
+        height: 717px;
+    }
+
+    .card-gone {
+      display: none;
+    }
+
+    #photo-mob-padding {
+      padding-top: 37px;
     }
   #last-level {
       height: 789px;
