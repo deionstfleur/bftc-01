@@ -6,6 +6,8 @@ import Thumbnail2 from '../../assets/playlist-02.jpeg'
 import AppleMusic from '../../assets/apple-music.png'
 import Spotify from '../../assets/spotify.png'
 import Footer from '../Footer'
+import Trio from '../../assets/trio.jpeg'
+
 import {Link} from 'react-router-dom'
 
 
@@ -14,51 +16,57 @@ const Playlists = () => {
         <div>
             <Navbar />
 
-            <div id="play-section" class="container">
+            <div id="play-section">
 
                 <div>
-                    <div style={{paddingTop: 50}} class="row">
+                    <div style={{paddingTop: 93}} >
                       
-                        <div class="order-sm-12 col-md-6">
+                        <div class="container">
 
-                            <div>
-                              <img src={Thumbnail2} class="img-fluid" />
+                            <div class="row">
+
+                                <div class="order-sm-12 col-md-6">
+                                        <img src={Trio} class="img-fluid" />
+                                </div>
+
+                                <div class="order-sm-1 col-md-6">
+                                   <h1 style={{color: 'white', fontSize: 54, fontWeight: 'bold'}}>The BFTC Playlist</h1>
+                                     <p style={{color: 'white', fontSize: 25}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. </p>
+
+
+                                     <div className="em-button">
+                                         <span>Explore on Spotify</span>
+                                     </div>
+                                </div>
+
+
                             </div>
-                        </div>
 
-                        <div id="play-hack" class="order-sm-1 col-md-6">
-                            <h1 className="playlist-header">Playlists</h1>
-                             <p className="p-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. </p>
+  
 
-                             {/* <p style={{paddingTop: 12, fontSize: 14}} className="p-sub">Learn More </p> */}
-
-                             <div className="big-biz">
-                                 
-                                    <img src={AppleMusic} class="img-fluid" />
-                                
-                                    <img src={Spotify} class="img-fluid" />
-                             </div>
                         </div>
 
 
                     </div>
 
+
                 </div>
 
             </div>
 
-
+{/* 
                     <div id="middle-section">
+
 
                         <div>
 
-                            <h1 className="middle-title">Playlists and music that we love</h1>
+                            <h1 className="middle-title">Listen on</h1>
 
                             <div className="mob-button-container">
-                                <p style={{border: '1px solid black'}} className="mob-filter-button">Rob</p>
-                                <p style={{border: '1px solid black'}} className="mob-filter-button">Yves</p>
-                                <p style={{border: '1px solid black'}} className="mob-filter-button">Tomo</p>
-                                <p style={{border: '1px solid black'}} className="mob-filter-button">Nate</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Apple</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Amazon</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">SoundCloud</p>
+                                <p style={{border: '1px solid black'}} className="mob-filter-button">Youtube</p>
                             </div>
 
                             <div style={{display: 'flex', justifyContent: 'space-between', overflowX: 'auto', width: '120%', maxWidth: '100%'}}>
@@ -72,15 +80,26 @@ const Playlists = () => {
 
 
 
-                    </div>
+                    </div> */}
+
 
             <div id="different-section">
 
-                <div class="container">
-
+                <div style={{paddingTop: 170}} class="container">
+                <div data-aos="fade-up">
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
-                            <div className="ds-inner">
+                        <div class="embed-responsive embed-responsive-16by9">
+                           <iframe class="embed-responsive-item" width="640" height="345" src="https://www.youtube.com/embed/WNDsTj7W8VU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        </div>
+
+
+                        <div  id="vid" class="col-xs-12 col-md-6">
+                  
+
+
+                        <div className="ds-inner">
                                 <p className="ds-title">2021 Clips</p>
 
                                 <h1>Come see our Favorite Moments</h1> 
@@ -91,17 +110,10 @@ const Playlists = () => {
                                          </a>
                                 </div>
                             </div>
-                        </div>
-
-
-                        <div id="vid" class="col-xs-12 col-md-6">
-                        <div class="embed-responsive embed-responsive-16by9">
-                           <iframe class="embed-responsive-item" width="640" height="345" src="https://www.youtube.com/embed/WNDsTj7W8VU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
                        </div>
 
                     </div>
-
+                </div>
 
                 </div>
 

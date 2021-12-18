@@ -25,16 +25,22 @@
 
 .nav-logo-hover {
     text-decoration: none; 
-    color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 100px;
     position: relative;
     left: 2%;
     top: 20%; 
     z-index: 100; 
     font-weight: bold;
+    font-size: 13px;
+    /* border: 1px solid #fff; */
 }
 
 .nav-logo-hover:hover {
-    color: white;
+    color: black;
+    background-color: white;
+
 }
 
 .btn-outline-success:hover {

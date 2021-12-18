@@ -33,7 +33,7 @@ const Footer = () => {
                     </a>
 				</div>
 				<div class="col-md-4 col-xs-12 right-footer">
-					<h1>BAD FOR THE COMMUNITY</h1>
+					<h1>BAD FOR THE COMMUNITY &#8482;</h1>
 					<p style={{color: 'red'}}>2021</p>
 				</div>
 			</div>

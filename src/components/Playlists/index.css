@@ -25,8 +25,8 @@
 
 #play-section {
     max-width: 100%;
-    background-color: rgb(235, 30, 50);
-    height: 600px;
+    background-color: #121212;
+    height: 466px;
 }
 
 .thumb-card {
@@ -48,9 +48,9 @@
 
 #different-section {
     max-width: 100%;
-    background-color: #000;
+    background-color: #121212;
     margin-bottom: -1px;
-    height: 564px;
+    height: 765px;
 }
 
 .ds-inner {
@@ -87,6 +87,12 @@
     position: relative;
     left: 10%;
     cursor: pointer;
+}
+
+#middle-section {
+    background-color: #121212;
+    color: white;
+    /* padding-bottom: 100px; */
 }
 
 #play-hack {
@@ -136,11 +142,28 @@
     padding-right: 20px;
     font-size: 20px;
     cursor: pointer;
+    background-color: white;
+    color: black;
 }
 
 .mob-filter-button:hover {
     background-color: black;
-    color: tomato;
+    color: white;
+}
+
+.em-button {
+    border: 1px solid #fff;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 60%;
+    cursor: pointer;
+}
+
+.em-button:hover {
+    background-color: rgb(48, 160, 82);
+    color: black;
 }
 
 
@@ -174,7 +197,7 @@
     }
 
     #different-section {
-        height: 685px;
+        height: 855px;
     }
 
     #play-hack {
@@ -213,7 +236,9 @@
     .middle-title {
         font-size: unset;
         width: unset;
-        font-size: 30px;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: left;
     }
 
 }

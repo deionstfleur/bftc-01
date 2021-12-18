@@ -62,9 +62,9 @@ const Home = () => {
 		</div>
 	</div>
 	<div id="lower-section">
-		<div class="container">
+		<div class="wide-container">
 			<div>
-				<p className="terms"> A podcast about young entreprenurs</p>
+				<p className="terms"> A podcast about young entrepreneurs</p>
 			</div>
 		</div>
 	</div>
@@ -312,7 +312,7 @@ const Home = () => {
 									</div>
 					</div>
 
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome} style={{height: '100%'}} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
@@ -563,13 +563,13 @@ const Home = () => {
 
 		<div id="inner-logo" class="text-center">
 
-		<div class="row">
+		<div class="text-center">
 
-			<div class="col-md-6">
+			<div>
 				<h1>Stay Connected and join our Newsletter</h1>
 			</div>
 
-			<div class="col-md-6">
+			<div style={{display: 'inline-block'}}>
 			<form>
   <div class="form-row align-items-center">
   
