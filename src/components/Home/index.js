@@ -15,11 +15,11 @@ import Trio from '../../assets/trio.jpeg'
 import Logo from '../../assets/logo.png'
 import {Link} from 'react-router-dom'
 import Footer from '../Footer'
-import RobHome from '../../assets/berto-home.jpeg'
+import RobHome from '../../assets/robohome-3(1).jpeg'
 import RobHome2 from '../../assets/berto-home-2.jpeg'
 import YvesHome from '../../assets/yves-home-1.jpeg'
 import YvesHome2 from '../../assets/yves-home-2.jpeg'
-import TomoHome from '../../assets/tomo-home-1.jpeg'
+import TomoHome from '../../assets/resized-tomo.jpeg'
 import TomoHome2 from '../../assets/tomo-home-2.jpeg'
 import NateHome from '../../assets/nate-nics-home-1.jpeg'
 import NateHome2 from '../../assets/nate-nics-home-2.jpeg'
@@ -157,7 +157,7 @@ const Home = () => {
 				<h1 style={{fontSize: 62, width: '72%', margin: 'auto', fontWeight: 'bold', marginBottom: 30}} class="text-center">Meet The Hosts</h1>
 			<div className="scroll-container" class="row">
 			<div class="col-md-3 col-xs-12"> 
-			<img className="artist-hover" src={RobHome} data-toggle="modal" data-target="#exampleModalCenter"  class="img-fluid"   style={{height: '100%'}} width="350" />
+			<img className="artist-hover" src={RobHome} data-toggle="modal" data-target="#exampleModalCenter"  class="img-fluid"   style={{width: '100%'}} width="350" />
 						{/* <p className="artist-title"> GuyClaude &amp; Clark D Interview - Episode 20 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Listen Now </span> </a>
@@ -261,7 +261,7 @@ const Home = () => {
 									</div>
 									</div>
 					</div>
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} style={{height: '100%'}} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} style={{width: '100%'}} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
@@ -312,7 +312,7 @@ const Home = () => {
 									</div>
 					</div>
 
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome} style={{height: '100%'}} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome2} style={{width: '100%'}} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
@@ -337,7 +337,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={NateHome2} class="img-fluid" />
+														<img src={NateHome} class="img-fluid" />
 
 													</div>
 
@@ -506,7 +506,7 @@ const Home = () => {
 										</div>
 									</div>
 									</div>
-			<img height="200"  data-toggle="modal" data-target="#exampleModalCenter8" src={NateHome} />
+			<img height="200"  data-toggle="modal" data-target="#exampleModalCenter8" src={NateHome2} />
 			<div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 									<div class="modal-dialog modal-dialog-centered" role="document">
 										<div class="modal-content">
@@ -524,7 +524,7 @@ const Home = () => {
 
 													<div class="col-xs-12 col-md-6">
 
-														<img src={NateHome2} class="img-fluid" />
+														<img src={NateHome} class="img-fluid" />
 
 													</div>
 
