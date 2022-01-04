@@ -23,6 +23,11 @@ import TomoHome from '../../assets/resized-tomo.jpeg'
 import TomoHome2 from '../../assets/tomo-home-2.jpeg'
 import NateHome from '../../assets/nate-nics-home-1.jpeg'
 import NateHome2 from '../../assets/nate-nics-home-2.jpeg'
+import OneChip from '../../assets/one-chip-thumbnail.png'
+import ClarkGuy from '../../assets/clark-guy-thumbnail.png'
+import KeiThumb from '../../assets/kei-thumnail.png'
+import BoriThumb from '../../assets/bori-thumbnail.png'
+import PimpSosa from '../../assets/pimp-sosa-thumb.png'
 import Duo from '../../assets/duo.jpeg'
 import Arrow from '../../assets/arrow-forward-outline.svg'
 
@@ -72,73 +77,85 @@ const Home = () => {
 	<div class="wide-container">
 
 		<div style={{display: 'flex', justifyContent: 'space-between'}}>
-			<h2 style={{paddingTop: 30, marginBottom: 30, fontSize: 34, fontWeight: 'bold'}}>Browse Episodes</h2>
+			<h2 style={{paddingTop: 30, marginBottom: 30, fontSize: 34, fontWeight: 'bold'}}>Popular Episodes</h2>
 			<Link to="/Browse-Episodes" style={{textDecoration: 'none', color: 'black'}}>
 				<h2 style={{paddingTop: 44,fontSize: 18}}> Explore More &#8594;</h2>
 			</Link>
 		</div>
-		<div class="row">
+		<div className="artist-scroll-container">
 		<div id="artist-card"  class="col-xs-12 col-md-3">
-			<img src={Tamera} style={{borderRadius: 20}} class="img-fluid" />
-			<p className="episode-titles">Episode</p>
-			<h3 style={{textAlign: 'center'}}>Tamera</h3>
+			<img src={OneChip} style={{borderRadius: 20}} class="img-fluid" />
+			<p style={{marginBottom: 30}} className="episode-titles">Bad For The Community Podcast | Episode 11: ONE CHIP CHALLENGE!!</p>
 			<div  class="dropdown-show">
 				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<span>Listen</span>
 				</a>
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Soundcloud</a>
-						<a class="dropdown-item" href="#">Apple</a>
-						<a class="dropdown-item" href="#">Youtube</a>
+						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000534152686" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://www.youtube.com/watch?v=2_IjvtpqkG4&t=1232s" target="_blank" >Youtube</a>
 					</div>
 			</div>
 		</div>
 		<div id="artist-card"  class="col-xs-12 col-md-3">
-			<img src={Clark} style={{borderRadius: 20}} class="img-fluid" />
-			<p className="episode-titles">Episode</p>
-			<h3  style={{textAlign: 'center'}}>Guy and Clark D</h3>
+			<img src={ClarkGuy} style={{borderRadius: 20}} class="img-fluid" />
+			<p className="episode-titles">Clark D &amp; Guyclaude Interview: Can't Rest When You're Broke! | Bad For The Community</p>
 			<div  class="dropdown-show">
 				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<span>Listen</span>
 				</a>
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Soundcloud</a>
-						<a class="dropdown-item" href="#">Apple</a>
-						<a class="dropdown-item" href="#">Youtube</a>
+						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000543773813" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://www.youtube.com/watch?v=rpefP3ludzY&t=60s" target="_blank">Youtube</a>
 					</div>
 			</div>
 		</div>
-		<div  id="artist-card" class="col-xs-12 col-md-3 card-gone">
-			<img src={Kei} style={{borderRadius: 20}} class="img-fluid" />
-			<p className="episode-titles">Episode</p>
-			<h3  style={{textAlign: 'center'}} >Kei</h3>
+		<div  id="artist-card" class="col-xs-12 col-md-3">
+			<img src={KeiThumb} style={{borderRadius: 20}} class="img-fluid" />
+			<p style={{paddingBottom: 20}} className="episode-titles">Bad For The Community Podcast | Episode 19: Red Flags (feat. kei)</p>
 			<div  class="dropdown-show">
 				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<span>Listen</span>
 				</a>
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Soundcloud</a>
-						<a class="dropdown-item" href="#">Apple</a>
-						<a class="dropdown-item" href="#">Youtube</a>
+						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000543172985" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://www.youtube.com/watch?v=rXnYSkwQ36w&t=134s" target="_blank">Youtube</a>
 					</div>
 			</div>
 		</div>
-		<div id="artist-card"  class="col-xs-12 col-md-3 card-gone">
-			<img src={Kieh} style={{borderRadius: 20}} class="img-fluid" />
-			<p className="episode-titles">Episode</p>
-			<h3  style={{textAlign: 'center'}}>Kieh</h3>
+		<div id="artist-card"  class="col-xs-12 col-md-3">
+			<img src={BoriThumb} style={{borderRadius: 20}} class="img-fluid" />
+			<p style={{paddingBottom: 20}} className="episode-titles">BoriRock Interview &amp; The Secrets to Being Wavy | Bad For The Community</p>
 			<div  class="dropdown-show">
 				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<span>Listen</span>
 				</a>
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-						<a class="dropdown-item" href="#">Soundcloud</a>
-						<a class="dropdown-item" href="#">Apple</a>
-						<a class="dropdown-item" href="#">Youtube</a>
+						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
+						{/* <a class="dropdown-item" href="#">Apple</a> */}
+						<a class="dropdown-item" href="https://www.youtube.com/watch?v=Si846Fe1huE&t=1835s" target="_blank">Youtube</a>
+					</div>
+			</div>
+		</div>
+
+		<div id="artist-card"  class="col-xs-12 col-md-3">
+			<img src={PimpSosa} style={{borderRadius: 20}} class="img-fluid" />
+			<p className="episode-titles">Bad For The Community Podcast | Episode 16: Off The 'Tron (feat. Pimpdaddydane &amp; Big Sosa)</p>
+			<div  class="dropdown-show">
+				<a  class="btn btn-secondary dropdown-toggle episode-btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span>Listen</span>
+				</a>
+
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000540035639" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://www.youtube.com/watch?v=tIrTH1M7jwo&t=2s" target="_blank">Youtube</a>
 					</div>
 			</div>
 		</div>

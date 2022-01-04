@@ -53,21 +53,29 @@ html {
   border: 1px solid darkslategray;
   padding: 19px;
   border-radius: 20px;
+  margin-bottom: 11px;
 }
 
 .episode-titles {
-  font-size: 18px;
-  color: #838383;
+  font-size: 13px;
+  color: black;
   font-weight: 700;
-  margin-bottom: unset;
+  margin-bottom: 10px;
   padding-top: 10px;
   text-align: center;
 }
 
+.artist-scroll-container {
+  display: flex;
+  overflow: auto;
+}
+
+
+
 #logos-section {
   max-width: 100%;
-  background-color: rgba(189, 189, 189, 0.596);
-  color: white;
+  background-color: white;
+  color: black;
   height: 240px;
   padding-top: 20px;
 }
@@ -337,15 +345,20 @@ line-height: 16px;
   
   
   *::-webkit-scrollbar {
-    width: 0;
+    height: 3px;
+
   }
   
   *::-webkit-scrollbar-track {
     background: transparent;
+    height: 1px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
   }
   
   *::-webkit-scrollbar-thumb {
-    background: transparent;
+    background-color: darkslategrey;
+    height: 1px;
     border: none;
   }
   

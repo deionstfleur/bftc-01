@@ -16,6 +16,11 @@ const Playlists = () => {
         <div>
             <Navbar />
 
+
+
+
+
+
             <div id="play-section">
 
                 <div>
@@ -34,8 +39,13 @@ const Playlists = () => {
                                      <p style={{color: 'white', fontSize: 25}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet dignissim urna. </p>
 
 
-                                     <div className="em-button">
-                                         <span>Explore on Spotify</span>
+                                     <div style={{display: 'flex', width: '19%'}}>
+                                         <a href="#" target="_blank">
+                                             <img src={AppleMusic} class="img-fluid" />
+                                         </a>
+                                         <a href="#" target="_blank">
+                                             <img style={{marginLeft: 10}} src={Spotify} class="img-fluid" />
+                                         </a>
                                      </div>
                                 </div>
 
