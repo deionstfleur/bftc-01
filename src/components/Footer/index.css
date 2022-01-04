@@ -22,6 +22,10 @@ line-height: 16px;
 }
 
 .footer-links {
-    color: red;
+    color: #c4c4c4;
     text-decoration:none;
+}
+
+.footer-links:hover {
+    color: rgb(214, 214, 214);
 }

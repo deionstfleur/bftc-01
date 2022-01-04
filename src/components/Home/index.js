@@ -29,6 +29,8 @@ import KeiThumb from '../../assets/kei-thumnail.png'
 import BoriThumb from '../../assets/bori-thumbnail.png'
 import PimpSosa from '../../assets/pimp-sosa-thumb.png'
 import Duo from '../../assets/duo.jpeg'
+import Carousel from 'react-bootstrap/Carousel'
+
 import Arrow from '../../assets/arrow-forward-outline.svg'
 
 
@@ -40,6 +42,8 @@ const Home = () => {
     return (
         <div>
 	<Navbar id="nav" />
+
+	
 	<div id="top-section">
 		<div id="main" class="container">
             <div class="row">
@@ -93,7 +97,7 @@ const Home = () => {
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
-						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000534152686" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000534152686" target="_blank">Apple Music</a>
 						<a class="dropdown-item" href="https://www.youtube.com/watch?v=2_IjvtpqkG4&t=1232s" target="_blank" >Youtube</a>
 					</div>
 			</div>
@@ -108,7 +112,7 @@ const Home = () => {
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
-						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000543773813" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000543773813" target="_blank">Apple Music</a>
 						<a class="dropdown-item" href="https://www.youtube.com/watch?v=rpefP3ludzY&t=60s" target="_blank">Youtube</a>
 					</div>
 			</div>
@@ -123,7 +127,7 @@ const Home = () => {
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						{/* <a class="dropdown-item" href="#">Soundcloud</a> */}
-						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000543172985" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000543172985" target="_blank">Apple Music</a>
 						<a class="dropdown-item" href="https://www.youtube.com/watch?v=rXnYSkwQ36w&t=134s" target="_blank">Youtube</a>
 					</div>
 			</div>
@@ -154,7 +158,7 @@ const Home = () => {
 
 					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 						{/* <a class="dropdown-item" href="#">Soundcloud</a>mj */}
-						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000540035639" target="_blank">Apple</a>
+						<a class="dropdown-item" href="https://podcasts.apple.com/us/podcast/bad-for-the-community/id1570889413?i=1000540035639" target="_blank">Apple Music</a>
 						<a class="dropdown-item" href="https://www.youtube.com/watch?v=tIrTH1M7jwo&t=2s" target="_blank">Youtube</a>
 					</div>
 			</div>
