@@ -56,6 +56,16 @@ html {
   margin-bottom: 11px;
 }
 
+.square {
+  border: 1px solid #000;
+  box-shadow: #a5a5a5 4px 4px 0px 0px;
+  transition: top ease 0.5s
+}
+
+.square:hover {
+  top: -10px;
+}
+
 .episode-titles {
   font-size: 13px;
   color: black;

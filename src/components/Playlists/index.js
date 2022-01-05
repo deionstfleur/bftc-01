@@ -95,7 +95,7 @@ const Playlists = () => {
 
             <div id="different-section">
 
-                <div style={{paddingTop: 170}} class="container">
+                <div style={{paddingTop: 60}} class="container">
                 <div data-aos="fade-up">
                     <div class="row">
                         <div class="col-xs-12 col-md-6">

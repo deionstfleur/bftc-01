@@ -3,6 +3,14 @@
     /* display: none; */
 }
 
+#artist-caard {
+  margin: 4px;
+}
+
+.ep-row {
+  display: flex;
+}
+
 
 .show {
     display: block;
@@ -25,6 +33,15 @@
 }
 
 
+#episode-card {
+  border: 1px solid darkslategray;
+  padding: 19px;
+  border-radius: 20px;
+  margin-bottom: 11px;
+  margin: 5px;
+}
+
+
 
 .episodes-btn span:hover {
   color: #000;
@@ -36,5 +53,9 @@
 @media screen and (max-width: 767px) {
     #episode-page {
         margin-bottom: 100px;
+    }
+
+    .ep-row {
+      flex-wrap: wrap;
     }
 }

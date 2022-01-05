@@ -177,7 +177,7 @@ const Home = () => {
 
 				<h1 style={{fontSize: 62, width: '72%', margin: 'auto', fontWeight: 'bold', marginBottom: 30}} class="text-center">Meet The Hosts</h1>
 			<div className="scroll-container" class="row">
-			<div class="col-md-3 col-xs-12"> 
+			<div class="col-md-3 col-xs-12 square"> 
 			<img className="artist-hover" src={RobHome} data-toggle="modal" data-target="#exampleModalCenter"  class="img-fluid"   style={{width: '100%'}} width="350" />
 						{/* <p className="artist-title"> GuyClaude &amp; Clark D Interview - Episode 20 </p>
 						<div className="guest-btn">
@@ -230,7 +230,7 @@ const Home = () => {
 									</div>
 									</div>
 				</div>
-					<div id="switch" class="col-md-3 col-xs-12"> 
+					<div id="switch" class="col-md-3 col-xs-12 square"> 
 					<img className="artist-hover" src={YvesHome} data-toggle="modal" data-target="#exampleModalCenter2"   class="img-fluid" height="130" width="850" />
 					{/* <img className="artist-hover" src={YvesHome2}   class="img-fluid" id="img-top" height="330" width="350" /> */}
 						{/* <p className="artist-title">Kei Interview - Episode 19 </p>
@@ -282,7 +282,7 @@ const Home = () => {
 									</div>
 									</div>
 					</div>
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={TomoHome} style={{width: '100%'}} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12 square"> <img className="artist-hover" src={TomoHome} style={{width: '100%'}} data-toggle="modal" data-target="#exampleModalCenter3"  class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>
@@ -333,7 +333,7 @@ const Home = () => {
 									</div>
 					</div>
 
-					<div class="col-md-3 col-xs-12"> <img className="artist-hover" src={NateHome2} style={{width: '100%'}} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
+					<div class="col-md-3 col-xs-12 square"> <img className="artist-hover" src={NateHome2} style={{width: '100%'}} data-toggle="modal" data-target="#exampleModalCenter4" class="img-fluid" height="330" width="350" />
 						{/* <p className="artist-title"> BoriRock - Episode 18 </p>
 						<div className="guest-btn">
 							<a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/Si846Fe1huE"> <span> Listen Now</span> </a>

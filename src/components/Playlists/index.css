@@ -60,13 +60,13 @@
 #different-section {
     max-width: 100%;
     background-color: #121212;
-    margin-bottom: -1px;
+    margin-bottom: -96px;
     height: 765px;
 }
 
 .ds-inner {
     color: white;
-    padding-top: 49px;
+    padding-top: 20px;
 
 }
 
@@ -181,7 +181,7 @@
 
 @media screen and (max-width: 767px) {
     #play-section {
-        height: 683px;
+        height: 806px;
     }
 
     #vid {
