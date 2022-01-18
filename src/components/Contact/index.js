@@ -3,6 +3,7 @@ import '../../components/Contact/index.css'
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import {Link} from 'react-router-dom'
+import Group from '../../assets/group.jpeg'
 import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps'
 
 
@@ -44,7 +45,7 @@ const Contact = () => {
 
                 <div class="col-xl-6 col-sm-12">
 
-                    <img src="https://via.placeholder.com/600x400" class="img-fluid" />
+                    <img src={Group} class="img-fluid" />
                     
                 </div>
 

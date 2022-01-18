@@ -52,7 +52,7 @@ const Home = () => {
 
                     <h2 className="hp-title"> Bad For the Community</h2>
                     <div style={{paddingTop: 20}} className="episode-btn">
-                        <a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/rpefP3ludzY"> <span> Watch Latest Episode </span> </a>
+                        <a style={{textDecoration: 'none'}} target="_blank" href="https://youtu.be/hNlX7t08Mfk"> <span> Watch Latest Episode </span> </a>
                     </div>
 				</div>
                 </div>
